@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://info.nickyam.com/software/Line_apk/</loc>
+    <loc>http://info.nickyam.com/software/line_apk/</loc>
     
     <lastmod>2023-06-08</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://info.nickyam.com/software/Whatsapp_apk/</loc>
+    <loc>http://info.nickyam.com/software/whatsapp_apk/</loc>
     
     <lastmod>2023-06-08</lastmod>
     
@@ -201,20 +201,6 @@
   </url>
   
   <url>
-    <loc>http://info.nickyam.com/tags/seo/</loc>
-    <lastmod>2023-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://info.nickyam.com/tags/sitemap/</loc>
-    <lastmod>2023-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://info.nickyam.com/tags/Mac/</loc>
     <lastmod>2023-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -230,6 +216,20 @@
   
   <url>
     <loc>http://info.nickyam.com/tags/VPN/</loc>
+    <lastmod>2023-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/seo/</loc>
+    <lastmod>2023-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/sitemap/</loc>
     <lastmod>2023-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -308,14 +308,14 @@
   </url>
   
   <url>
-    <loc>http://info.nickyam.com/categories/web/</loc>
+    <loc>http://info.nickyam.com/categories/softinfo/</loc>
     <lastmod>2023-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://info.nickyam.com/categories/softinfo/</loc>
+    <loc>http://info.nickyam.com/categories/web/</loc>
     <lastmod>2023-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
