@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>安卓丨 Facebook！大名鼎鼎的脸书 APP</title>
+    <url>/software/Facebook_apk/</url>
+    <content><![CDATA[<p>脸书（facebook）是一款非常流行的社交聊天软件。这款 app 在国外很受欢迎。这个 app 有很多交友的机会。用户可以在这个 app 上分享自己的生活和工作，也可以关注你喜欢的用户，认识很多外国朋友。感兴趣的朋友快来下载吧。<span id="more"></span></p>
+<p>facebook 简介：<br>1、facebook 是全世界十分时兴的交友软件，在这儿您能够结交大量志趣相投的人我亲爱的朋友。<br>2、最开始仅仅为在校大学生给予沟通交流和社交媒体服务项目。伴随着社交平台的持续拓展，并慢慢撤出院校。<br>3、facebook 有着最技术专业的社交网络平台和相片共享资源作用，与此同时一度变成世界最大的社交媒体类网址。</p>
+<p>facebook 特色​：<br>1、超清晰照片：就像阅读实体相册一样；Facebook 的优质精美照片一页一页呈现；<br>2、网站导航，畅通无阻：点击、滑动、点击，瞬间改变显示；<br>3、去哪儿，去哪儿玩：无论身在何处，都可以随时随地访问自己喜欢的 Facebook 游戏；<br>4、重点内容、焦点锁定：贴近好友照片、最新动态和各种更新，更清晰地获取您关心的内容；<br>5、集中运输，使用方便：无需留下动态信息即可分享照片、更新近期状态或传递信息；<br>6、谁在附近：从周围的地标地图，Facebook 应用程序可以找到您朋友的趋势。</p>
+<p>资源链接: <a href="https://pan.baidu.com/s/1vPu1LugPMjSne5vZ4kIbHA">百度网盘</a></p>
+<p>提取码: info</p>
+]]></content>
+      <categories>
+        <category>软件资源</category>
+      </categories>
+      <tags>
+        <tag>安卓</tag>
+        <tag>APK</tag>
+        <tag>Facebook</tag>
+        <tag>百度网盘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 网站如何生成 Sitemap 的步骤</title>
+    <url>/web/Hexo-generate-Sitemap/</url>
+    <content><![CDATA[<p>Sitemap 对于 SEO（搜索引擎优化）具有重要作用。Sitemap 是一个包含网站所有页面 URL 的文件，它向搜索引擎提供了有关网站结构和内容的信息。以下是 Sitemap 对 SEO 的作用：<span id="more"></span></p>
+<ol>
+<li><p>提升网站索引效率：Sitemap 可以帮助搜索引擎快速发现和索引您网站的所有页面。通过向搜索引擎提供一个结构化的 Sitemap 文件，您可以确保所有重要的页面都被搜索引擎抓取和索引，提高网站在搜索结果中的可见性。</p>
+</li>
+<li><p>强调关键页面：您可以在 Sitemap 中指定页面的优先级，以便搜索引擎了解哪些页面更重要。这可以帮助搜索引擎更好地理解和评估您网站的关键内容，提高这些页面在搜索结果中的排名。</p>
+</li>
+<li><p>支持新页面的快速索引：当您发布新的网页时，Sitemap 可以帮助搜索引擎快速发现和索引它们。而不依赖于搜索引擎的自动发现机制，通过提交更新的 Sitemap，您可以确保新页面尽快被搜索引擎发现，有助于加快新内容的排名和曝光。</p>
+</li>
+<li><p>优化内部链接结构：Sitemap 可以让您审查和优化网站的内部链接结构。通过检查 Sitemap 中的页面链接，您可以确保搜索引擎可以轻松访问和索引您网站的所有重要页面，确保页面之间的链接流量和权重分配合理。</p>
+</li>
+<li><p>提供附加信息：除了页面 URL 外，Sitemap 还可以包含其他有关页面的信息，例如最后更新时间、更新频率和关键字。这些额外的信息可以帮助搜索引擎更好地理解和分析您网站的内容，进而对其进行更准确的排名和检索。</p>
+</li>
+</ol>
+<p>总的来说，Sitemap 对 SEO 的作用是提供了一种结构化的方式，让搜索引擎更好地了解和索引您的网站内容。通过正确创建和提交 Sitemap，您可以提高网站在搜索引擎中的可见性和排名，增加有针对性的流量，并为用户提供更好的搜索体验。</p>
+<p>要为 Hexo 网站生成 Sitemap（网站地图），您可以按照以下步骤进行操作：</p>
+<ul>
+<li><p>安装 Hexo Sitemap 插件：在命令行中执行以下命令来安装 Hexo Sitemap 插件：<br><code>npm install hexo-generator-sitemap --save</code></p>
+</li>
+<li><p>配置 Hexo Sitemap 插件：在 Hexo 网站的配置文件_config.yml 中添加以下内容：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line"># Sitemap Generator</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br><span class="line">  prettyURLs:</span><br><span class="line">    trailingSlash: false</span><br></pre></td></tr></tbody></table></figure>
+<p>这将配置插件生成的 Sitemap 文件的路径和设置。</p>
+</li>
+<li><p>生成 Sitemap：在命令行中执行以下命令以生成 Sitemap：<br><code>hexo generate </code><br>这将重新生成您的 Hexo 网站，并在输出中包括 Sitemap 文件。</p>
+</li>
+<li><p>验证 Sitemap：在您的 Hexo 网站根目录中检查是否生成了 sitemap.xml 文件。您可以通过在浏览器中访问 <a href="http://yourdomain.com/sitemap.xml%EF%BC%88%E5%B0%86%22yourdomain.com%22%E6%9B%BF%E6%8D%A2%E4%B8%BA%E6%82%A8%E7%9A%84%E5%AE%9E%E9%99%85%E5%9F%9F%E5%90%8D%EF%BC%89%E6%9D%A5%E9%AA%8C%E8%AF%81Sitemap%E6%98%AF%E5%90%A6%E6%AD%A3%E5%B8%B8%E5%B7%A5%E4%BD%9C%E3%80%82">http://yourdomain.com/sitemap.xml（将 "yourdomain.com" 替换为您的实际域名）来验证 Sitemap 是否正常工作。</a></p>
+</li>
+<li><p>提交 Sitemap 给搜索引擎：最后，您可以将生成的 Sitemap 提交给各大搜索引擎，以便它们可以更好地索引和了解您的网站。不同的搜索引擎有不同的提交方式，您可以访问各搜索引擎的 Webmaster 工具或开发者文档以获取详细指南。</p>
+</li>
+</ul>
+<p>通过生成 Sitemap，我们可以更好地管理和推广我们的科技博客，使其在搜索引擎中得到更好的展示和排名。只有不断跟上科技发展的脚步，并采用适当的优化策略，我们的科技博客才能在激烈的竞争中脱颖而出。希望本篇文章对您有所启发.</p>
+]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>seo</tag>
+        <tag>sitemap</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>适用于 Mac 的最佳免费 VPN 推荐</title>
     <url>/softinfo/Free-VPNs-on-Mac/</url>
     <content><![CDATA[<p>互联网是一个巨大的信息空间，其中的信息纷繁复杂，而 VPN 提供了一个保护层，确保在登录网络时保护个人隐私或在不安全的 wifi 网络上浏览网站。VPN 建立安全和加密的连接不仅可以帮助您保护数据，还可以使浏览匿名。你在市场上可以买到很多 VPN 服务，用于学习和研究。其实，对于大多数人而言，<span id="more"></span>有些优秀的免费 VPN 服务也是够用的。另外，在你免费使用一段时间以后，可以再考虑转为相应的高级服务。</p>
@@ -52,76 +113,34 @@
       </tags>
   </entry>
   <entry>
-    <title>安卓丨 Instagram ！风靡全球的社交神器，亲测可用，建议收藏</title>
-    <url>/software/instagram_apk/</url>
-    <content><![CDATA[<p>Instagram（国内简称：ins）一款风靡全球的图片分享社区，云集了各色美妆达人、网红、明星博主，功能类似国内的微博，深受大家的青睐。<span id="more"></span></p>
-<p>由于地域的限制，国内用户是无法正常使用的，请大家自行使用魔法。本资源仅适用于安卓。</p>
-<p>资源链接: <a href="https://pan.baidu.com/s/1zliJuTnQ9mjvRrXxRU3NhQ">百度网盘</a></p>
-<p>提取码: info</p>
+    <title>如何解决 Sitemap 文件中存在的 XML 语法错误</title>
+    <url>/web/How_to_Resolve_XML_Syntax_Errors_in_Sitemap_File/</url>
+    <content><![CDATA[<p>笔者在生成 sitemap 后，打开文件报错如下：</p>
+<blockquote>
+<p>This page contains the following errors:<br>error on line 527 at column 91: xmlParseEntityRef: no name<br>Below is a rendering of the page up to the first error.</p>
+</blockquote>
+<span id="more"></span>
+
+<p>这个错误通常表示在生成的 Sitemap 文件中存在 XML 语法错误。错误消息 “xmlParseEntityRef: no name” 意味着在某一行的第 91 列中发现了一个无效的 XML 实体引用。</p>
+<p>常见的原因是在 Sitemap 文件中使用了无效的字符或未经转义的特殊字符。XML 语法要求某些字符进行转义，以确保其在 XML 中的正确解析。例如，&amp; 符号在 XML 中应该被写为 &amp;。</p>
+<p>要解决此问题，请执行以下步骤：</p>
+<ul>
+<li>打开生成的 Sitemap 文件。</li>
+<li>导航到报错行（527 行）和列（第 91 列）。</li>
+<li>检查该位置附近的内容，查看是否存在无效的字符或未经转义的特殊字符。</li>
+<li>如果发现无效字符或未经转义的特殊字符，请将其修复。</li>
+<li>特别注意检查是否有 &amp; 符号，并确保它们被正确转义为 &amp;。</li>
+<li>保存文件并再次尝试加载 Sitemap。</li>
+</ul>
+<p>如果仍然遇到问题，请检查其他行和列，以确保整个 Sitemap 文件的语法正确。还可以使用在线 XML 验证工具（如 <a href="https://www.xmlvalidation.com/">https://www.xmlvalidation.com/</a>）来验证您的 Sitemap 文件，以帮助找出并解决语法错误。</p>
+<p>请记住，正确的 XML 语法对于搜索引擎正确解析和处理 Sitemap 非常重要。修复语法错误后，您应该能够成功加载 Sitemap 文件并提交给搜索引擎。</p>
 ]]></content>
       <categories>
-        <category>软件资源</category>
+        <category>建站</category>
       </categories>
       <tags>
-        <tag>安卓</tag>
-        <tag>APK</tag>
-        <tag>ins</tag>
-        <tag>百度网盘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安卓丨 Telegram！神级沟通 app，安全隐私，币圈必备</title>
-    <url>/software/Telegram_apk/</url>
-    <content><![CDATA[<p>Telegram 又叫 “电报”，缩写为 “TG”，它是由俄罗斯的两位兄弟开发的一款加密即时通讯软件。<span id="more"></span> Telegram 与国内的 QQ 和微信比较类似，你可以通过 Telegram 与好友聊天，也可以加入各种 Telegram 群组。</p>
-<p>Telegram 以安全、免费、群组无上限、使用简单等优点深受全球网友的喜爱，也是大陆网友科学上网之后必备的一个聊天软件。</p>
-<p>资源链接: <a href="https://pan.baidu.com/s/1FdgvCKbCqYOsmVn7uLCNsQ">百度网盘</a></p>
-<p>提取码: info</p>
-]]></content>
-      <categories>
-        <category>软件资源</category>
-      </categories>
-      <tags>
-        <tag>安卓</tag>
-        <tag>APK</tag>
-        <tag>百度网盘</tag>
-        <tag>tg</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安卓丨 Messenger！神级沟通 app，安全隐私，币圈必备</title>
-    <url>/software/Messenger_apk/</url>
-    <content><![CDATA[<p>Facebook 这是个风靡全世界的交友网站，在上面可以看到客户的动态，有种 QQ 空间的感觉，可以跟客户连线对话，建立群组等，很是全面。<span id="more"></span> 你还会在上面看到可能认识的人，客户的朋友你也可以加上。还可以关键词搜索，然后加为好友。</p>
-<p>Facebook Messenger 是 Facebook 自主研发的即时聊天工具，现在的用户数量排名全球第二。它的成长速度非常快，而且有一个巨大优势就是打开率较高 —— 一般邮件的打开率在 5%，但 FB Messenger Blast 的打开率在首个小时内可以高达 70%-80%。</p>
-<p>资源链接: <a href="https://pan.baidu.com/s/1f1hEqkyspEYN3R91vErGfg">百度网盘</a></p>
-<p>提取码: info</p>
-]]></content>
-      <categories>
-        <category>软件资源</category>
-      </categories>
-      <tags>
-        <tag>安卓</tag>
-        <tag>APK</tag>
-        <tag>百度网盘</tag>
-        <tag>Facebook</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安卓丨 Facebook！大名鼎鼎的脸书 APP</title>
-    <url>/software/Facebook_apk/</url>
-    <content><![CDATA[<p>脸书（facebook）是一款非常流行的社交聊天软件。这款 app 在国外很受欢迎。这个 app 有很多交友的机会。用户可以在这个 app 上分享自己的生活和工作，也可以关注你喜欢的用户，认识很多外国朋友。感兴趣的朋友快来下载吧。<span id="more"></span></p>
-<p>facebook 简介：<br>1、facebook 是全世界十分时兴的交友软件，在这儿您能够结交大量志趣相投的人我亲爱的朋友。<br>2、最开始仅仅为在校大学生给予沟通交流和社交媒体服务项目。伴随着社交平台的持续拓展，并慢慢撤出院校。<br>3、facebook 有着最技术专业的社交网络平台和相片共享资源作用，与此同时一度变成世界最大的社交媒体类网址。</p>
-<p>facebook 特色​：<br>1、超清晰照片：就像阅读实体相册一样；Facebook 的优质精美照片一页一页呈现；<br>2、网站导航，畅通无阻：点击、滑动、点击，瞬间改变显示；<br>3、去哪儿，去哪儿玩：无论身在何处，都可以随时随地访问自己喜欢的 Facebook 游戏；<br>4、重点内容、焦点锁定：贴近好友照片、最新动态和各种更新，更清晰地获取您关心的内容；<br>5、集中运输，使用方便：无需留下动态信息即可分享照片、更新近期状态或传递信息；<br>6、谁在附近：从周围的地标地图，Facebook 应用程序可以找到您朋友的趋势。</p>
-<p>资源链接: <a href="https://pan.baidu.com/s/1vPu1LugPMjSne5vZ4kIbHA">百度网盘</a></p>
-<p>提取码: info</p>
-]]></content>
-      <categories>
-        <category>软件资源</category>
-      </categories>
-      <tags>
-        <tag>安卓</tag>
-        <tag>APK</tag>
-        <tag>百度网盘</tag>
-        <tag>Facebook</tag>
+        <tag>seo</tag>
+        <tag>sitemap</tag>
       </tags>
   </entry>
   <entry>
@@ -159,6 +178,24 @@
       </tags>
   </entry>
   <entry>
+    <title>安卓丨 Messenger！神级沟通 app，安全隐私，币圈必备</title>
+    <url>/software/Messenger_apk/</url>
+    <content><![CDATA[<p>Facebook 这是个风靡全世界的交友网站，在上面可以看到客户的动态，有种 QQ 空间的感觉，可以跟客户连线对话，建立群组等，很是全面。<span id="more"></span> 你还会在上面看到可能认识的人，客户的朋友你也可以加上。还可以关键词搜索，然后加为好友。</p>
+<p>Facebook Messenger 是 Facebook 自主研发的即时聊天工具，现在的用户数量排名全球第二。它的成长速度非常快，而且有一个巨大优势就是打开率较高 —— 一般邮件的打开率在 5%，但 FB Messenger Blast 的打开率在首个小时内可以高达 70%-80%。</p>
+<p>资源链接: <a href="https://pan.baidu.com/s/1f1hEqkyspEYN3R91vErGfg">百度网盘</a></p>
+<p>提取码: info</p>
+]]></content>
+      <categories>
+        <category>软件资源</category>
+      </categories>
+      <tags>
+        <tag>安卓</tag>
+        <tag>APK</tag>
+        <tag>Facebook</tag>
+        <tag>百度网盘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>安卓丨 Skype！全球通讯工具，实时语音视频通话</title>
     <url>/software/Skype_apk/</url>
     <content><![CDATA[<p>Skype 是一款全球知名的通讯工具，提供实时语音和视频通话的功能。它可在安卓设备上使用，帮助用户与朋友、家人和同事保持联系。<span id="more"></span></p>
@@ -175,6 +212,24 @@
         <tag>安卓</tag>
         <tag>百度网盘</tag>
         <tag>Skype</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安卓丨 Telegram！神级沟通 app，安全隐私，币圈必备</title>
+    <url>/software/Telegram_apk/</url>
+    <content><![CDATA[<p>Telegram 又叫 “电报”，缩写为 “TG”，它是由俄罗斯的两位兄弟开发的一款加密即时通讯软件。<span id="more"></span> Telegram 与国内的 QQ 和微信比较类似，你可以通过 Telegram 与好友聊天，也可以加入各种 Telegram 群组。</p>
+<p>Telegram 以安全、免费、群组无上限、使用简单等优点深受全球网友的喜爱，也是大陆网友科学上网之后必备的一个聊天软件。</p>
+<p>资源链接: <a href="https://pan.baidu.com/s/1FdgvCKbCqYOsmVn7uLCNsQ">百度网盘</a></p>
+<p>提取码: info</p>
+]]></content>
+      <categories>
+        <category>软件资源</category>
+      </categories>
+      <tags>
+        <tag>安卓</tag>
+        <tag>APK</tag>
+        <tag>百度网盘</tag>
+        <tag>tg</tag>
       </tags>
   </entry>
   <entry>
@@ -210,8 +265,8 @@
       <tags>
         <tag>安卓</tag>
         <tag>APK</tag>
-        <tag>百度网盘</tag>
         <tag>Facebook</tag>
+        <tag>百度网盘</tag>
       </tags>
   </entry>
   <entry>
@@ -249,6 +304,52 @@
         <tag>安卓</tag>
         <tag>百度网盘</tag>
         <tag>Zoom</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安卓丨 Instagram ！风靡全球的社交神器，亲测可用，建议收藏</title>
+    <url>/software/instagram_apk/</url>
+    <content><![CDATA[<p>Instagram（国内简称：ins）一款风靡全球的图片分享社区，云集了各色美妆达人、网红、明星博主，功能类似国内的微博，深受大家的青睐。<span id="more"></span></p>
+<p>由于地域的限制，国内用户是无法正常使用的，请大家自行使用魔法。本资源仅适用于安卓。</p>
+<p>资源链接: <a href="https://pan.baidu.com/s/1zliJuTnQ9mjvRrXxRU3NhQ">百度网盘</a></p>
+<p>提取码: info</p>
+]]></content>
+      <categories>
+        <category>软件资源</category>
+      </categories>
+      <tags>
+        <tag>安卓</tag>
+        <tag>APK</tag>
+        <tag>百度网盘</tag>
+        <tag>ins</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安卓丨大麦助手！自动抢票软件 APP</title>
+    <url>/software/%E5%A4%A7%E9%BA%A6%E5%8A%A9%E6%89%8B_apk/</url>
+    <content><![CDATA[<p>最近演唱会非常多，很多小伙伴根本抢不到自己想看的歌手演唱会，这是为啥？因为别人用科技！你还在用手抢啊！！<span id="more"></span></p>
+<p>1. 大麦抢票辅助（只抢待开抢中的）。</p>
+<p>2. 特别注意：一定要提前选好场次、价格还有观影人，收藏到想看！</p>
+<p>3. 操作步骤  </p>
+<ul>
+<li>先去演唱会主页预选好场次、价格还有观演人，点击想看</li>
+<li>手机后台杀掉大麦 app 任务 (可选）</li>
+<li>打开辅助 app，给于对应权限</li>
+<li>输入歌手名字（可选）</li>
+<li>点击开抢按钮即可</li>
+<li>如果点击开抢后，页面未开始自动跳转，可手动杀死大麦，再次切到辅助 app 点击开抢</li>
+<li>如果想终止辅助 app，点击右上角悬浮窗 &lt;点击停止&gt; 即可。</li>
+</ul>
+<p>资源链接: <a href="https://pan.quark.cn/s/c6301e3883cf">夸克网盘</a></p>
+<p>提取码: WhQ5</p>
+]]></content>
+      <categories>
+        <category>软件资源</category>
+      </categories>
+      <tags>
+        <tag>安卓</tag>
+        <tag>抢票</tag>
+        <tag>夸克网盘</tag>
       </tags>
   </entry>
 </search>
