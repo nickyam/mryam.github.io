@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://info.nickyam.com/softinfo/transit/markdownload_google_extension_save_web_pages_as_notes/</loc>
+    
+    <lastmod>2023-06-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://info.nickyam.com/softinfo/transit/Multiple_Methods_to_Clipping_Web_Articles_to_Obsidian/</loc>
     
     <lastmod>2023-06-25</lastmod>
@@ -398,6 +407,27 @@
   
   <url>
     <loc>http://info.nickyam.com/tags/obsidian/</loc>
+    <lastmod>2023-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/Google/</loc>
+    <lastmod>2023-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/Chrome/</loc>
+    <lastmod>2023-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/Markdown/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
