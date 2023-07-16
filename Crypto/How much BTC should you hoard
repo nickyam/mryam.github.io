@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>How much BTC should you hoard? | Mr. Yam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="BTC" />
+  
+  
+  
+  
+  <meta name="description" content="Often, friends struggle to determine the target amount when formulating a long-term investment plan. Some friends, with lower incomes, find it difficult to imagine owning 1 BTC, which is valued at aro">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How much BTC should you hoard?">
+<meta property="og:url" content="http://mr.nickyam.com/Crypto/How%20much%20BTC%20should%20you%20hoard">
+<meta property="og:site_name" content="Mr. Yam">
+<meta property="og:description" content="Often, friends struggle to determine the target amount when formulating a long-term investment plan. Some friends, with lower incomes, find it difficult to imagine owning 1 BTC, which is valued at aro">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-07-07T13:53:32.000Z">
+<meta property="article:modified_time" content="2023-07-16T14:56:21.158Z">
+<meta property="article:author" content="Nick Yam">
+<meta property="article:tag" content="BTC">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Mr. Yam" type="application/atom+xml">
+  
+  <link rel="icon" href="/css/images/favicon.ico">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+    
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+<script src="/js/jquery-3.1.1.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+
+
+<header id="allheader" class="site-header" role="banner" 
+   >
+  <div class="clearfix container">
+      <div class="site-branding">
+
+          <h1 class="site-title">
+            
+              <a href="/" title="Mr. Yam" rel="home"> Mr. Yam </a>
+            
+          </h1>
+          
+          
+            <div class="site-description">Welcome to Mr. Yam - Where East Tells West! </div>
+          
+            
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">Menu</a>
+            <a class="nav-close">Close</a>
+
+            <div class="clearfix sf-menu">
+              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="https://github.com/nickyam"> <a class="" target="_blank" rel="noopener" href="https://github.com/nickyam">github</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
+                    
+              </ul>
+            </div>
+          </nav>
+
+      </div>
+  </div>
+</header>
+
+
+  <div id="container">
+    <div id="wrap">
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-How much BTC should you hoard?" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" class="article-title" itemprop="name">
+      How much BTC should you hoard?
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/Crypto/How%20much%20BTC%20should%20you%20hoard?/" class="article-date">
+	  <time datetime="2023-07-07T13:53:32.000Z" itemprop="datePublished">July 7, 2023</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
+ 
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Often, friends struggle to determine the target amount when formulating a long-term investment plan. Some friends, with lower incomes, find it difficult to imagine owning 1 BTC, which is valued at around $30,000 or over 200,000 RMB. On the other hand, friends with more wealth feel that buying a few BTC doesn’t seem satisfying enough.</p>
+<span id="more"></span>
+<p>In my opinion, it might be helpful to consider your current net worth relative to the global population of 8 billion people when estimating how much BTC you should hold. This approach allows you to maintain your wealth position without it diminishing.</p>
+<p>We owe this to Bitcoin, which provides a fairer measure of wealth. Its design, with a limited supply and inability for arbitrary inflation, ensures that the wealth stored in Bitcoin form doesn’t passively erode, thereby safeguarding your financial position.</p>
+<p>According to statistical data on the global distribution of personal wealth in 2021, only 62.5 million individuals (0.89% of the world population) possess a net worth of $1 million or more, forming the elite class at the top of the wealth pyramid. If we hypothetically divide the 21 million BTC equally among these 62.5 million individuals, each person would only have about 0.336 BTC. However, considering factors such as unreleased BTC, lost BTC, and uneven distribution, the amount held by the last individual in the elite class would be significantly smaller.</p>
+<p>Even if we consider the conservative estimate of 0.336 BTC, the total cost at the current price of $30.5k would be a little over $10,000 or around 70,000 RMB. This means that by spending less than 100,000 RMB today, you can achieve a wealth position equivalent to a net worth of one million US dollars, as measured by Bitcoin’s global wealth scale.</p>
+<p>If you believe that in your target timeframe, let’s say 20 or 30 years from now, Bitcoin can only measure a fraction of global wealth, you can introduce a percentage to calculate accordingly. For example, if Bitcoin were to grow to 10% of the global wealth in 20-30 years, the previously mentioned estimate of 0.336 BTC would need to be multiplied by ten, resulting in 3.36 BTC. At the current cost, this would be around $100,000 or 700,000 RMB.</p>
+<p>In other words, individuals with a wealth level equivalent to the middle-class today can potentially achieve upward mobility to the elite class by actively accumulating Bitcoin. Even if the investment amount of $100,000 still seems high, you can consider a lower level.</p>
+<p>The next wealth level after a net worth of one million US dollars is the middle-class with a wealth range of $100,000 to one million US dollars. There are approximately 627 million individuals worldwide (8.9% of the global population) in this category. If we add the two aforementioned classes together, it totals around 689.5 million people, dividing the 21 million BTC among them, resulting in no more than 0.03 BTC per person. At today’s cost, this would be around $915 or approximately 6,500 RMB, which is less than 10,000 RMB.</p>
+<p>Following the same calculation, with a 10% estimate for 20-30 years in the future, the target would be 0.3 BTC, costing less than $10,000 or 70,000 RMB.</p>
+<p>If you still find it challenging, we can lower the level further to the subsistence class with a net worth ranging from $10,000 to $100,000. There are approximately 1.791 billion individuals (25.6% of the global population) in this category. Adding up the three levels mentioned earlier, it totals 2.48 billion people, dividing the 21 million BTC among them. Each person would have no more than 0.0085 BTC, which is equivalent to a cost of $260 or less than 2,000 RMB today.</p>
+<p>By applying the same 10% calculation for 20-30 years, the target would be 0.085 BTC, requiring a cost of $2,600 or 20,000 RMB.</p>
+<p>If you have a monthly salary of 3,000 RMB and can save 1,000 RMB per month, that would amount to 12,000 RMB per year. In less than two years, you would be able to accumulate 20,000 RMB. The next bull market cycle is likely to occur within this timeframe, so this could be the final window of opportunity for accumulating BTC.</p>
+<p>For readers who already have a higher level of wealth, you can extrapolate upwards. However, statistical data doesn’t provide specific information on the number of individuals beyond the million-dollar net worth level. You may need to conduct further research using search engines.</p>
+<p>According to estimates by Credit Suisse, in 2021, there were approximately 218,200 individuals with a personal wealth of $50 million or more, known as ultra-high-net-worth (UHNW) individuals. With 21 million BTC divided among them, each person would have no more than 96 BTC. At the current cost, this would be less than $30 million or around 200 million RMB.</p>
+<p>Interestingly, for someone with a net worth of only $50 million, asking them to invest $30 million to buy around 1,000 BTC would be quite challenging. This presents a greater difficulty compared to the calculations we made earlier, where a person with a net worth of $1 million spends $10,000 or someone with $100,000 spends $1,000. The challenge arises because $30 million is 60% of $50 million, while $10,000 is only 10% of $100,000, and $1,000 is only 10% of $10,000.</p>
+<p>This means that for someone who is currently at the top of the wealth pyramid, the difficulty of maintaining their wealth position through accumulating Bitcoin is much higher than for an average or relatively less affluent individual. Conversely, based on the current wealth distribution figures, it can be inferred that merely through accumulating Bitcoin, individuals from the relatively poorer lower levels can move upward, while those from the relatively wealthier upper levels can move downward, resulting in a more equitable global wealth distribution.</p>
+<p>Moreover, the faster and better Bitcoin develops and the higher its proportion of global wealth becomes, the more pronounced the effect of wealth redistribution will be. In the previous calculations, we used a 10% estimate for Bitcoin’s proportion in 20-30 years. But what if this proportion increases to 20% or 50%?</p>
+<p>The lower someone’s current wealth level is, the lower the cost and the greater the benefits they can gain by participating in this intergenerational global wealth redistribution historical event. The earlier one participates, the lower the cost and the greater the benefits. The longer one accumulates, the lower the cost and the greater the benefits.</p>
+<p>Furthermore, the wealth redistribution brought about by Bitcoin benefits the greatest number of people, thereby inevitably mobilizing and uniting the largest number of people worldwide. This establishes the largest and most profound consensus, which in turn further promotes and ensures the continuous increase of Bitcoin’s proportion relative to the global wealth total.</p>
+<p>The more people participate, the more successful Bitcoin becomes. The more successful Bitcoin becomes, the more people benefit. The more people benefit, the more people participate. This is a positive feedback loop.</p>
+
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/BTC/" rel="tag">BTC</a></li></ul>
+
+      
+        
+	<section id="comments" class="comment">
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
+
+	<script type="text/javascript">
+	var disqus_shortname = 'nickyam';
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	</script>
+
+
+
+      
+    </footer>
+    <hr class="entry-footer-hr">
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/Crypto/Paradigm%20Betrays%20the%20Revolution/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Paradigm Betrays the Revolution</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+      <ol class="nav">None</ol>
+    
+    </div>
+  </aside>
+
+
+<!-- 在适当的位置插入谷歌广告代码 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script></section>
+        
+      </div>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a target="_blank" rel="noopener" href="https://github.com/nickyam" class="mobile-nav-link">Github</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+      <div class="site-info">
+	      &copy; 2023 Mr. Yam All Rights Reserved.
+        
+      </div>
+      <div class="site-credit">
+        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
+      </div>
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    
+    
+</script>
+    
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+</div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+<script src="/js/bootstrap.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
+</body>
+</html>
