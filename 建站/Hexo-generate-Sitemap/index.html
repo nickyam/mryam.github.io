@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hexo 网站如何生成 Sitemap 的步骤 | Mr. Yam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="seositemap" />
+  
+  
+  
+  
+  <meta name="description" content="Sitemap 对于 SEO（搜索引擎优化）具有重要作用。Sitemap 是一个包含网站所有页面 URL 的文件，它向搜索引擎提供了有关网站结构和内容的信息。以下是 Sitemap 对 SEO 的作用：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 网站如何生成 Sitemap 的步骤">
+<meta property="og:url" content="http://mr.nickyam.com/%E5%BB%BA%E7%AB%99/Hexo-generate-Sitemap/index.html">
+<meta property="og:site_name" content="Mr. Yam">
+<meta property="og:description" content="Sitemap 对于 SEO（搜索引擎优化）具有重要作用。Sitemap 是一个包含网站所有页面 URL 的文件，它向搜索引擎提供了有关网站结构和内容的信息。以下是 Sitemap 对 SEO 的作用：">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-06-09T08:45:00.000Z">
+<meta property="article:modified_time" content="2023-06-09T09:25:36.188Z">
+<meta property="article:author" content="Nick Yam">
+<meta property="article:tag" content="seo">
+<meta property="article:tag" content="sitemap">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Mr. Yam" type="application/atom+xml">
+  
+  <link rel="icon" href="/css/images/favicon.ico">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+    
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+<script src="/js/jquery-3.1.1.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
+
+
+<header id="allheader" class="site-header" role="banner" 
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+  <div class="clearfix container">
+      <div class="site-branding">
+
+          <h1 class="site-title">
+            
+              <a href="/" title="Mr. Yam" rel="home"> Mr. Yam </a>
+            
+          </h1>
+          
+          
+            <div class="site-description">Welcome to Mr. Yam - Where East Tells West! </div>
+          
+            
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">Menu</a>
+            <a class="nav-close">Close</a>
+
+            <div class="clearfix sf-menu">
+              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">Categories</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">Tags</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
+                    
+              </ul>
+            </div>
+          </nav>
+
+      </div>
+  </div>
+</header>
+
+
+  <div id="container">
+    <div id="wrap">
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-Hexo-generate-Sitemap" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" class="article-title" itemprop="name">
+      Hexo 网站如何生成 Sitemap 的步骤
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/%E5%BB%BA%E7%AB%99/Hexo-generate-Sitemap/" class="article-date">
+	  <time datetime="2023-06-09T08:45:00.000Z" itemprop="datePublished">June 9, 2023</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/%E5%BB%BA%E7%AB%99/">建站</a>
+ 
+      
+	<span id="busuanzi_container_page_pv">
+	  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+	</span>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Sitemap 对于 SEO（搜索引擎优化）具有重要作用。Sitemap 是一个包含网站所有页面 URL 的文件，它向搜索引擎提供了有关网站结构和内容的信息。以下是 Sitemap 对 SEO 的作用：<span id="more"></span></p>
+<ol>
+<li><p>提升网站索引效率：Sitemap 可以帮助搜索引擎快速发现和索引您网站的所有页面。通过向搜索引擎提供一个结构化的 Sitemap 文件，您可以确保所有重要的页面都被搜索引擎抓取和索引，提高网站在搜索结果中的可见性。</p>
+</li>
+<li><p>强调关键页面：您可以在 Sitemap 中指定页面的优先级，以便搜索引擎了解哪些页面更重要。这可以帮助搜索引擎更好地理解和评估您网站的关键内容，提高这些页面在搜索结果中的排名。</p>
+</li>
+<li><p>支持新页面的快速索引：当您发布新的网页时，Sitemap 可以帮助搜索引擎快速发现和索引它们。而不依赖于搜索引擎的自动发现机制，通过提交更新的 Sitemap，您可以确保新页面尽快被搜索引擎发现，有助于加快新内容的排名和曝光。</p>
+</li>
+<li><p>优化内部链接结构：Sitemap 可以让您审查和优化网站的内部链接结构。通过检查 Sitemap 中的页面链接，您可以确保搜索引擎可以轻松访问和索引您网站的所有重要页面，确保页面之间的链接流量和权重分配合理。</p>
+</li>
+<li><p>提供附加信息：除了页面 URL 外，Sitemap 还可以包含其他有关页面的信息，例如最后更新时间、更新频率和关键字。这些额外的信息可以帮助搜索引擎更好地理解和分析您网站的内容，进而对其进行更准确的排名和检索。</p>
+</li>
+</ol>
+<p>总的来说，Sitemap 对 SEO 的作用是提供了一种结构化的方式，让搜索引擎更好地了解和索引您的网站内容。通过正确创建和提交 Sitemap，您可以提高网站在搜索引擎中的可见性和排名，增加有针对性的流量，并为用户提供更好的搜索体验。</p>
+<p>要为 Hexo 网站生成 Sitemap（网站地图），您可以按照以下步骤进行操作：</p>
+<ul>
+<li><p>安装 Hexo Sitemap 插件：在命令行中执行以下命令来安装 Hexo Sitemap 插件：<br><code>npm install hexo-generator-sitemap --save</code></p>
+</li>
+<li><p>配置 Hexo Sitemap 插件：在 Hexo 网站的配置文件_config.yml 中添加以下内容：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Sitemap Generator</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br><span class="line">  prettyURLs:</span><br><span class="line">    trailingSlash: false</span><br></pre></td></tr></tbody></table></figure>
+<p>这将配置插件生成的 Sitemap 文件的路径和设置。</p>
+</li>
+<li><p>生成 Sitemap：在命令行中执行以下命令以生成 Sitemap：<br><code>hexo generate </code><br>这将重新生成您的 Hexo 网站，并在输出中包括 Sitemap 文件。</p>
+</li>
+<li><p>验证 Sitemap：在您的 Hexo 网站根目录中检查是否生成了 sitemap.xml 文件。您可以通过在浏览器中访问 <a target="_blank" rel="noopener" href="http://yourdomain.com/sitemap.xml%EF%BC%88%E5%B0%86%22yourdomain.com%22%E6%9B%BF%E6%8D%A2%E4%B8%BA%E6%82%A8%E7%9A%84%E5%AE%9E%E9%99%85%E5%9F%9F%E5%90%8D%EF%BC%89%E6%9D%A5%E9%AA%8C%E8%AF%81Sitemap%E6%98%AF%E5%90%A6%E6%AD%A3%E5%B8%B8%E5%B7%A5%E4%BD%9C%E3%80%82">http://yourdomain.com/sitemap.xml（将 "yourdomain.com" 替换为您的实际域名）来验证 Sitemap 是否正常工作。</a></p>
+</li>
+<li><p>提交 Sitemap 给搜索引擎：最后，您可以将生成的 Sitemap 提交给各大搜索引擎，以便它们可以更好地索引和了解您的网站。不同的搜索引擎有不同的提交方式，您可以访问各搜索引擎的 Webmaster 工具或开发者文档以获取详细指南。</p>
+</li>
+</ul>
+<p>通过生成 Sitemap，我们可以更好地管理和推广我们的科技博客，使其在搜索引擎中得到更好的展示和排名。只有不断跟上科技发展的脚步，并采用适当的优化策略，我们的科技博客才能在激烈的竞争中脱颖而出。希望本篇文章对您有所启发.</p>
+
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/%E5%BB%BA%E7%AB%99/">建站</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/seo/" rel="tag">seo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sitemap/" rel="tag">sitemap</a></li></ul>
+
+      
+        
+	<div id="comment">
+	
+	<!-- 多说评论框 start -->
+	 <div class="ds-thread" data-thread-key="/建站/Hexo-generate-Sitemap/" data-title="Hexo 网站如何生成 Sitemap 的步骤" data-url="http://mr.nickyam.com/%E5%BB%BA%E7%AB%99/Hexo-generate-Sitemap/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"nickyam"};
+	  (function() {
+	    var ds = document.createElement('script');
+	    ds.type = 'text/javascript';ds.async = true;
+	    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	    ds.charset = 'UTF-8';
+	    (document.getElementsByTagName('head')[0] 
+	     || document.getElementsByTagName('body')[0]).appendChild(ds);
+	  })();
+	  </script>
+	<!-- 多说公共JS代码 end -->
+	
+	</div>
+	
+<link rel="stylesheet" href="/css/comment.css">
+
+
+
+      
+    </footer>
+    <hr class="entry-footer-hr">
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/%E5%BB%BA%E7%AB%99/How_to_Resolve_XML_Syntax_Errors_in_Sitemap_File/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          如何解决 Sitemap 文件中存在的 XML 语法错误
+        
+      </div>
+    </a>
+  
+  
+    <a href="/%E8%BD%AF%E4%BB%B6%E8%B5%84%E6%BA%90/%E5%A4%A7%E9%BA%A6%E5%8A%A9%E6%89%8B_apk/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">安卓丨大麦助手！自动抢票软件 APP</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+      <ol class="nav">None</ol>
+    
+    </div>
+  </aside>
+</section>
+        
+      </div>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+      <div class="site-info">
+	      &copy; 2023 Mr. Yam All Rights Reserved.
+        
+            <span id="busuanzi_container_site_uv">
+              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
+              本站总访问量<span id="busuanzi_value_site_pv"></span>次
+            </span>
+          
+      </div>
+      <div class="site-credit">
+        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
+      </div>
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
+    
+    
+</script>
+    
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+</div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+<script src="/js/bootstrap.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+  <div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
+</body>
+</html>
