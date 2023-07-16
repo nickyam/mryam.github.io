@@ -2,8 +2,22 @@
 <html>
 <head>
   <meta charset="utf-8">
+
+  <!-- PACE Progress Bar START -->
   
-  <title>Page 1 | Mr. Yam</title>
+    
+<script src="https://raw.githubusercontent.com/HubSpot/pace/v1.0.2/pace.min.js"></script>
+
+    
+<link rel="stylesheet" href="https://github.com/HubSpot/pace/raw/master/themes/orange/pace-theme-flash.css">
+
+  
+  
+
+  <!-- PACE Progress Bar START -->
+
+  
+  <title>Mr. Yam</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
@@ -19,15 +33,13 @@
 <meta property="article:author" content="Nick Yam">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Mr. Yam" type="application/atom+xml">
-  
   <link rel="icon" href="/css/images/favicon.ico">
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   <style type="text/css">
     @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
     @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
@@ -35,33 +47,56 @@
     @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
     
   <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
-
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
   
 <link rel="stylesheet" href="/css/style.css">
 
 
   
-<script src="/js/jquery-3.1.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.css" >
-  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="/css/hiero.css" >
   <link rel="stylesheet" href="/css/glyphs.css" >
+  
 
+  <!-- Custom CSS -->
+  
+<link rel="stylesheet" href="/css/my.css">
+
+  <!-- Google Adsense -->
+  
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-7114121088728794",
+          enable_page_level_ads: true
+      });
+  </script>
+  
 <meta name="generator" content="Hexo 6.3.0"></head>
 
+<script>
+var themeMenus = {};
+
+  themeMenus["/"] = "Home"; 
+
+  themeMenus["/archives"] = "Archives"; 
+
+  themeMenus["/categories"] = "Categories"; 
+
+  themeMenus["/tags"] = "Tags"; 
+
+  themeMenus["/about"] = "About"; 
+
+</script>
 
 
   <body>
 
 
-  
-
-
-<header id="allheader" class="site-header" role="banner" 
-   >
+  <header id="allheader" class="site-header" role="banner">
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -70,7 +105,7 @@
               <a href="/" title="Mr. Yam" rel="home"> Mr. Yam </a>
             
           </h1>
-          
+
           
             <div class="site-description">Welcome to Mr. Yam - Where East Tells West! </div>
           
@@ -78,25 +113,30 @@
           <nav id="main-navigation" class="main-navigation" role="navigation">
             <a class="nav-open">Menu</a>
             <a class="nav-close">Close</a>
-
             <div class="clearfix sf-menu">
-              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
+
+              <ul id="main-nav" class="nmenu sf-js-enabled">
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">Home</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">Archives</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="https://github.com/nickyam"> <a class="" target="_blank" rel="noopener" href="https://github.com/nickyam">github</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/categories">Categories</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/tags">Tags</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">About</a> </li>
                     
               </ul>
             </div>
           </nav>
 
+
       </div>
   </div>
 </header>
+
+
 
 
   <div id="container">
@@ -122,14 +162,10 @@
     
     <div class="article-meta">
       
-	<a href="/Crypto/How%20much%20BTC%20should%20you%20hoard?/" class="article-date">
+	Posted on <a href="/Crypto/How%20much%20BTC%20should%20you%20hoard?/" class="article-date">
 	  <time datetime="2023-07-07T13:53:32.000Z" itemprop="datePublished">July 7, 2023</time>
 	</a>
 
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
- 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
@@ -137,8 +173,11 @@
         
 
           
-          <div class="entry-summary">
-          Often, friends struggle to determine the target amount when formulating a long-term investment plan. Some friends, with lower incomes, find it difficult to imagine owning 1 BTC, which is valued at around $30,000 or over 200,000 RMB. On the other hand, friends with more wealth feel that buying a few BTC doesn’t seem satisfying enough.
+            <div class="entry-summary" style="margin-left:0;">
+            Often, friends struggle to determine the target amount when formulating a long-term investment plan. Some friends, with lower incomes, find it difficult to imagine owning 1 BTC, which is valued at around $30,000 or over 200,000 RMB. On the other hand, friends with more wealth feel that buying a few BTC doesn’t seem satisfying enough.
+
+In my opin...
+          
 
         
           <p class="article-more-link">
@@ -157,17 +196,17 @@
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/BTC/" rel="tag">BTC</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-Paradigm Betrays the Revolution"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -185,25 +224,26 @@
     
     <div class="article-meta">
       
-	<a href="/Crypto/Paradigm%20Betrays%20the%20Revolution/" class="article-date">
+	Posted on <a href="/Crypto/Paradigm%20Betrays%20the%20Revolution/" class="article-date">
 	  <time datetime="2023-07-07T13:53:32.000Z" itemprop="datePublished">July 7, 2023</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
- 
-      
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>The English word “Paradigm” means “a typical example or pattern.” The most common usage is in the phrase “Paradigm Shift” , which refers to a fundamental change in the basic concepts and practices of a scientific discipline. It is a concept in the philosophy of science introduced by American physicist and philosopher Thomas Kuhn and incorporated into the general lexicon. While Kuhn initially limited the use of this term to the natural sciences, the concept of paradigm shift is also used in many non-scientific contexts to describe profound changes in fundamental models or perceptions of events.</p>
-<p>In the cryptocurrency/web3 field, Paradigm is a well-known name. One prominent example is their deep investment in the leading decentralized exchange (DEX) project, Uniswap. As early as 2019, when Uniswap was relatively unknown in the DeFi space, Paradigm invested $1.82 million as an angel investor and mentor. This investment is believed to have yielded returns of several billion dollars during the peak of the bull market in 2021.</p>
-<p>In the NFT space, Paradigm made a significant investment of $11 million in the early stages of the NFT-focused trading platform Blur, around March 2022. With their support and involvement, Blur emerged in early 2023, challenging the dominance of the leading NFT marketplace, Opensea, and disrupting the bear market.</p>
-<p>Their investment in Uniswap is a source of pride for Paradigm. Noah, the lead developer of Uniswap v3, once tweeted, “Dan is a core contributor to the mechanism design of Uniswap v3. It would not have been possible without him.” However, their investment in Blur could be seen as a betrayal of Opensea, the frontrunner that received significant investment from a16z. While it may not be explicitly stated, the conflicting interests are apparent. Their investment in FTX, which eventually faced significant losses and an exit scam, caused Paradigm to lose face and suffer losses of up to $278 million.</p>
-<p>Just recently, Paradigm quietly modified their website’s bold slogans and manifestos. Previously, it read: “Paradigm backs disruptive crypto/Web3 companies and protocols with as little as $1M and as much as $100M+.” The revised version now states: “Paradigm is a research-driven technology investment firm.” They have also removed the strong expressions related to cryptocurrencies and Web3, such as “We believe cryptocurrencies will define the next few decades.”</p>
-<p>It is rumored that Paradigm couldn’t withstand the loneliness of the cryptocurrency bear market and couldn’t resist the temptation of artificial intelligence. They are reportedly preparing to enter the field of AI.<img src="https://telegraph-image.pages.dev/file/a17bbfab221ad46888b94.jpg"></p>
+        
 
+          
+            <div class="entry-summary" style="margin-left:0;">
+            The English word “Paradigm” means “a typical example or pattern.” The most common usage is in the phrase “Paradigm Shift” , which refers to a fundamental change in the basic concepts and practices of a scientific discipline. It is a concept in the philosophy of science introduced by American physicist and philosopher Thomas Kuhn and incorporated...
+          
+
+        
+          <p class="article-more-link">
+            <a href="/Crypto/Paradigm%20Betrays%20the%20Revolution/#more">Continue Reading →</a>
+          </p>
+        </div>
       
     </div>
     <footer class="entry-meta entry-footer">
@@ -216,17 +256,17 @@
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Paradigm/" rel="tag">Paradigm</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-Recommended Free and Secure Email Services without Phone Registration"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -244,14 +284,10 @@
     
     <div class="article-meta">
       
-	<a href="/Tech/Recommended%20Free%20and%20Secure%20Email%20Services%20without%20Phone%20Registration/" class="article-date">
+	Posted on <a href="/Tech/Recommended%20Free%20and%20Secure%20Email%20Services%20without%20Phone%20Registration/" class="article-date">
 	  <time datetime="2023-07-07T13:53:32.000Z" itemprop="datePublished">July 7, 2023</time>
 	</a>
 
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Tech/">Tech</a>
- 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
@@ -259,9 +295,10 @@
         
 
           
-          <div class="entry-summary">
-          Using a free anonymous email service can be advantageous for several reasons. 
-Firstly, it helps to protect your privacy and maintain confidentiality. By concealing your identity and personal information, you can communicate without revealing sensitive details about yourself. This can be particularly useful when engaging in online forums, signing up for services, or interacting with unfamiliar individuals or websites. 
+            <div class="entry-summary" style="margin-left:0;">
+            Using a free anonymous email service can be advantageous for several reasons. 
+Firstly, it helps to protect your privacy and maintain confidentiality. By concealing your identity and personal information, you can communicate without revealing sensitive details about yourself. This can be particularly useful when engaging in online forums, signin...
+          
 
         
           <p class="article-more-link">
@@ -280,17 +317,17 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mail/" rel="tag">Mail</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-The Essential Significance of Hoarding Bitcoin"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -308,14 +345,10 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
     
     <div class="article-meta">
       
-	<a href="/Crypto/The%20Essential%20Significance%20of%20Hoarding%20Bitcoin/" class="article-date">
+	Posted on <a href="/Crypto/The%20Essential%20Significance%20of%20Hoarding%20Bitcoin/" class="article-date">
 	  <time datetime="2023-07-06T11:51:00.000Z" itemprop="datePublished">July 6, 2023</time>
 	</a>
 
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
- 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
@@ -323,8 +356,11 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
         
 
           
-          <div class="entry-summary">
-          The most primitive storage need of humans, similar to squirrels storing pine cones for winter, is an instinctual response to future problems. This instinctual behavior does not require humans to possess such advanced thinking systems in their brains. Squirrels and many other animals can also anticipate the future.
+            <div class="entry-summary" style="margin-left:0;">
+            The most primitive storage need of humans, similar to squirrels storing pine cones for winter, is an instinctual response to future problems. This instinctual behavior does not require humans to possess such advanced thinking systems in their brains. Squirrels and many other animals can also anticipate the future.
+
+The existence of this anticipa...
+          
 
         
           <p class="article-more-link">
@@ -343,17 +379,17 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/BTC/" rel="tag">BTC</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-The Security Debate and Collision between Proof of Stake (PoS) and Proof of Work (PoW) since Ethereum&#39;s Transition"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -371,14 +407,10 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
     
     <div class="article-meta">
       
-	<a href="/Crypto/The%20Security%20Debate%20and%20Collision%20between%20Proof%20of%20Stake%20(PoS)%20and%20Proof%20of%20Work%20(PoW)%20since%20Ethereum's%20Transition/" class="article-date">
+	Posted on <a href="/Crypto/The%20Security%20Debate%20and%20Collision%20between%20Proof%20of%20Stake%20(PoS)%20and%20Proof%20of%20Work%20(PoW)%20since%20Ethereum's%20Transition/" class="article-date">
 	  <time datetime="2023-06-08T08:16:32.000Z" itemprop="datePublished">June 8, 2023</time>
 	</a>
 
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
- 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
@@ -386,8 +418,9 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
         
 
           
-          <div class="entry-summary">
-          Ever since Ethereum transitioned from PoW to PoS, the discussion and collision regarding the security of PoS and PoW have become a focal point. As early as November 6, 2020, Vitalik Buterin wrote a blog post titled “Why Proof of Stake” , where he conducted some calculations. His calculations indicated that, given equal security costs, PoS is safer than PoW.
+            <div class="entry-summary" style="margin-left:0;">
+            Ever since Ethereum transitioned from PoW to PoS, the discussion and collision regarding the security of PoS and PoW have become a focal point. As early as November 6, 2020, Vitalik Buterin wrote a blog post titled “Why Proof of Stake” , where he conducted some calculations. His calculations indicated that, given equal security costs, PoS is saf...
+          
 
         
           <p class="article-more-link">
@@ -406,17 +439,17 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/BTC/" rel="tag">BTC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ETH/" rel="tag">ETH</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-Apple Unveils the Most Powerful Device for Metaverse as Web3 Experts Transition to AI"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -434,14 +467,10 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
     
     <div class="article-meta">
       
-	<a href="/Tech/Apple%20Unveils%20the%20Most%20Powerful%20Device%20for%20Metaverse%20as%20Web3%20Experts%20Transition%20to%20AI/" class="article-date">
+	Posted on <a href="/Tech/Apple%20Unveils%20the%20Most%20Powerful%20Device%20for%20Metaverse%20as%20Web3%20Experts%20Transition%20to%20AI/" class="article-date">
 	  <time datetime="2023-06-07T12:50:12.000Z" itemprop="datePublished">June 7, 2023</time>
 	</a>
 
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Tech/">Tech</a>
- 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
@@ -449,8 +478,9 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
         
 
           
-          <div class="entry-summary">
-          The first few months of 2023 marked a turning point for the metaverse. Just as web3 experts were transitioning to AI, Apple unveiled its groundbreaking device, the Vision Pro, for the metaverse. While renowned figures like Bill Gates had previously advocated for Microsoft to go all-in on the metaverse but then shifted their focus to AI, Mark Zuckerberg, who renamed his company Meta to align with the metaverse, admitted strategic missteps and announced layoffs for a transition. Influential voices and experts who were once avid supporters of Web3 and the metaverse quickly rebranded themselves as AI enthusiasts, proclaiming AI as the future to attract followers.
+            <div class="entry-summary" style="margin-left:0;">
+            The first few months of 2023 marked a turning point for the metaverse. Just as web3 experts were transitioning to AI, Apple unveiled its groundbreaking device, the Vision Pro, for the metaverse. While renowned figures like Bill Gates had previously advocated for Microsoft to go all-in on the metaverse but then shifted their focus to AI, Mark Zuc...
+          
 
         
           <p class="article-more-link">
@@ -469,17 +499,17 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Apple/" rel="tag">Apple</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-What is Web3 Privacy? How is its Current Development?"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -497,14 +527,10 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
     
     <div class="article-meta">
       
-	<a href="/Crypto/What%20is%20Web3%20Privacy?%20How%20is%20its%20Current%20Development?/" class="article-date">
+	Posted on <a href="/Crypto/What%20is%20Web3%20Privacy?%20How%20is%20its%20Current%20Development?/" class="article-date">
 	  <time datetime="2023-06-06T04:12:32.000Z" itemprop="datePublished">June 6, 2023</time>
 	</a>
 
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
- 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
@@ -512,8 +538,9 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
         
 
           
-          <div class="entry-summary">
-          Generally speaking, internet privacy primarily concerns the invisibility of users’ data information, such as their identities, behaviors, and activities. In the era of the internet, all our information and actions are presented in a digital form. However, once any system storing digital information is connected to the network, it becomes a potential target for hackers. This is especially critical when it comes to sensitive information related to finance and personal health. The privacy and security of data become even more important.
+            <div class="entry-summary" style="margin-left:0;">
+            Generally speaking, internet privacy primarily concerns the invisibility of users’ data information, such as their identities, behaviors, and activities. In the era of the internet, all our information and actions are presented in a digital form. However, once any system storing digital information is connected to the network, it becomes a poten...
+          
 
         
           <p class="article-more-link">
@@ -532,17 +559,17 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web3/" rel="tag">web3</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-Musk has arrived"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -560,14 +587,10 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
     
     <div class="article-meta">
       
-	<a href="/Tech/Musk%20has%20arrived/" class="article-date">
+	Posted on <a href="/Tech/Musk%20has%20arrived/" class="article-date">
 	  <time datetime="2023-06-02T12:20:00.000Z" itemprop="datePublished">June 2, 2023</time>
 	</a>
 
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Tech/">Tech</a>
- 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
@@ -575,9 +598,10 @@ Firstly, it helps to protect your privacy and maintain confidentiality. By conce
         
 
           
-          <div class="entry-summary">
-          Musk has arrived. Not only has he arrived, but he has arrived with great fanfare. And it’s not just the arrival that’s making headlines; he’s also being received with high-profile receptions.
-Which Musk are we talking about? The one who produces Tesla cars, launches Starlink satellites into orbit, vows to send people to Mars with rockets, acquires Twitter and lays off 70% of its staff, and makes extravagant statements about Dogecoin while later calling it a scam on television.
+            <div class="entry-summary" style="margin-left:0;">
+            Musk has arrived. Not only has he arrived, but he has arrived with great fanfare. And it’s not just the arrival that’s making headlines; he’s also being received with high-profile receptions.
+Which Musk are we talking about? The one who produces Tesla cars, launches Starlink satellites into orbit, vows to send people to Mars with rockets, acquir...
+          
 
         
           <p class="article-more-link">
@@ -596,17 +620,17 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Musk/" rel="tag">Musk</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Tesla/" rel="tag">Tesla</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-On the Self-Limitation of Ethereum"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -624,26 +648,27 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
     
     <div class="article-meta">
       
-	<a href="/Crypto/On%20the%20Self-Limitation%20of%20Ethereum/" class="article-date">
+	Posted on <a href="/Crypto/On%20the%20Self-Limitation%20of%20Ethereum/" class="article-date">
 	  <time datetime="2023-05-30T14:11:32.000Z" itemprop="datePublished">May 30, 2023</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
- 
-      
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Recently, the similarities and differences between Bitcoin and Ethereum regarding the issue of price self-limitation have also been discussed. Some further thoughts and analysis are recorded below for readers’ discussion and criticism.<img src="https://telegraph-image.pages.dev/file/3b97d5f2b70bfab540ab8.jpg"></p>
-<p>The issue of self-limitation is actually somewhat subtle. Ethereum also draws on Bitcoin’s method of dynamically adjusting transaction fees (miner fees) in its calculations. For Bitcoin, the miner fee = vBytes (transaction size in bytes) * fee/vBytes (fee rate denominated in BTC); for Ethereum, the gas fee = gas (amount of computational resources consumed by instructions) * gas price (denominated in ETH). Therefore, on the surface, there doesn’t seem to be a problem with whether the fee rate or gas price is denominated in BTC, ETH, or USD. From the perspective of supply and demand economics, if the pricing currency relative to fiat currency is such that the expected fee income for miners (converted to fiat currency value) is just their cost (denominated in fiat currency) plus a reasonable profit, they can lower the fee rate (fee/vBytes or gas price) to maintain stability of the product of vBytes * fee/vBytes or gas * gas price relative to fiat currency.</p>
-<p>The problem here lies in the intrinsic differences in the sources of value between the two systems. Bitcoin, as a value transmission system, derives its overall value (manifested as market capitalization multiplied by a certain amplification factor) from the total value it can securely transmit. The “security” here depends on computational power, and the total value that can be transmitted = sum(vBytes) * BTC price. Therefore, as the price of Bitcoin increases, assuming a constant byte throughput, the total value that the system can transmit will be higher (with a higher multiple relative to the price), resulting in a higher value for this value transmission system.</p>
-<p>Ethereum, on the other hand, is different. Ethereum is a runtime platform for an application ecosystem. Its overall value comes from the prosperity of the aforementioned application ecosystem, directly reflected in the activity level of applications used (number of transactions, N). Assuming there are no security issues, meaning that computational power is not important here and PoS and PoW are equivalent, and can maintain the same level of security needs, the total gas fee = N * (average gas * gas price) = (N * average gas) * gas price. With a constant overall processing capacity of the system, (N * average gas) remains constant, and average gas is a constant value, so N remains constant. If the goal is to further increase the value of the system (thus increasing the price of ETH), it would require increasing N to a level beyond the system’s total processing capacity, denoted as N’ (N’ &gt; N). However, the actual processing capacity of the system remains at N, and the result of the free market bidding is an increase in gas price to maintain N, thereby increasing the total gas fee (i.e., the system’s total revenue). The increase in gas price restricts the usage of low-paying participants, limiting the overall activity level of the ecosystem and consequently limiting the overall value of the system.</p>
-<p>Even more “sinister” (“clever”) is that after Ethereum EIP-1559, the direct channel of total gas fee revenue to miners has been cut off, and it is all “burned,” while the system issues a predetermined amount of new ETH to miners. When the burning exceeds the issuance, entering the so-called “deflation” phase, it means that the system’s revenue is large A, but only a small a is given to miners. A &gt; a, resulting in a surplus value delta = A - a. Furthermore, according to free market competition, the equilibrium income of miners is actually just their cost plus a reasonable profit. When miners transition from PoW to PoS, costs will decrease significantly, allowing a to decrease substantially. However, A is determined by market competition on the consumption side and will not decrease. Therefore, the surplus value delta reaches its maximum.</p>
-<p>This resembles the maximization of surplus value by lowering worker wages in capitalist production. However, a problem with capitalist production is that as competition and product improvement continue, monopolistic positions are broken, and the overall industry profitability perpetually declines, resulting in the industry gradually becoming a sunset industry, with lower price-to-earnings ratios (returning to the cost of PoS hardware and software infrastructure).</p>
-<p>Do not misinterpret this inference. The transition of an industry from emerging to sunset may take hundreds of years. Long-term trends cannot serve as the basis for short-term speculation. In this regard, I can’t help but recall one of the most successful financial capitalists in the world today, Mr. Warren Buffett. His company, Berkshire Hathaway, acquired a textile mill in 1962. Unfortunately, the textile industry was already in decline, and despite efforts to navigate and reposition, it eventually had to be abandoned, leading to Berkshire Hathaway’s transformation.</p>
+        
 
+          
+            <div class="entry-summary" style="margin-left:0;">
+            Recently, the similarities and differences between Bitcoin and Ethereum regarding the issue of price self-limitation have also been discussed. Some further thoughts and analysis are recorded below for readers’ discussion and criticism.
+The issue of self-limitation is actually somewhat subtle. Ethereum also draws on Bitcoin’s method of dynamicall...
+          
+
+        
+          <p class="article-more-link">
+            <a href="/Crypto/On%20the%20Self-Limitation%20of%20Ethereum/#more">Continue Reading →</a>
+          </p>
+        </div>
       
     </div>
     <footer class="entry-meta entry-footer">
@@ -656,17 +681,17 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ETH/" rel="tag">ETH</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
     <article id="post-The Essence of the Internet is Marketing, and Web3 is Essentially Financial Marketing"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
@@ -684,14 +709,10 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
     
     <div class="article-meta">
       
-	<a href="/Crypto/The%20Essence%20of%20the%20Internet%20is%20Marketing,%20and%20Web3%20is%20Essentially%20Financial%20Marketing/" class="article-date">
+	Posted on <a href="/Crypto/The%20Essence%20of%20the%20Internet%20is%20Marketing,%20and%20Web3%20is%20Essentially%20Financial%20Marketing/" class="article-date">
 	  <time datetime="2023-05-28T12:03:32.000Z" itemprop="datePublished">May 28, 2023</time>
 	</a>
 
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Crypto/">Crypto</a>
- 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
@@ -699,8 +720,9 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
         
 
           
-          <div class="entry-summary">
-          There are often stories that people love to tell: Two classmates, A and B, graduated together. A joined a strict and regulated software company, while B joined an unknown internet company. Several years later, A honed their skills in standardized coding and project management, while B’s company successfully went public, resulting in a skyrocketing value of their stock options and granting them financial freedom.
+            <div class="entry-summary" style="margin-left:0;">
+            There are often stories that people love to tell: Two classmates, A and B, graduated together. A joined a strict and regulated software company, while B joined an unknown internet company. Several years later, A honed their skills in standardized coding and project management, while B’s company successfully went public, resulting in a skyrocketi...
+          
 
         
           <p class="article-more-link">
@@ -719,17 +741,17 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web3/" rel="tag">web3</a></li></ul>
 
       
+            
+      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+    
 
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   
 
 
@@ -741,13 +763,13 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
 </section>
           <aside id="sidebar">
   
-    <div style="margin: 20px 0;">
+    <div class="widget-wrap" style="margin: 20px 0;">
 	<div id="search-form-wrap">
 
     <form class="search-form">
-        <label style="width: 72%;">
+        <label style="width: 75%;">
             <span class="screen-reader-text">Search for:</span>
-            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" Search…" value="" name="s" title="Search for:">
+            <input type="search" class="search-field" style="height: 42px;" placeholder=" Search…" value="" name="s" title="Search for:">
         </label>
         <input type="submit" class="search-form-submit" value="Search">
     </form>
@@ -908,11 +930,17 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
 
     	<ul class="clearfix widget-social-icons">   
     	
-   			<li><a target="_blank" rel="noopener" href="https://github.com/nickyam" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
-
+          
+     			  <li><a target="_blank" rel="noopener" href="https://github.com/nickyam" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
+          
    		
-   			<li><a target="_blank" rel="noopener" href="https://twitter.com/nickyam513" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
-
+          
+     			  <li><a target="_blank" rel="noopener" href="https://www.twitter.com/nickyam513" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
+          
+   		
+          
+            <li><a href="mailto:me@nickyam.com?subject=请联系我&body=我能帮你什么" title="email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
+          
    		
    		</ul>
 
@@ -933,34 +961,18 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
 
   
 </aside>
-
-<!-- 在适当的位置插入谷歌广告代码 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
         
       </div>
-
-    </div>
-    <!-- <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-    <a target="_blank" rel="noopener" href="https://github.com/nickyam" class="mobile-nav-link">Github</a>
-  
-    <a href="/about" class="mobile-nav-link">About</a>
-  
-</nav> -->
-    <footer id="footer" class="site-footer">
+      <footer id="footer" class="site-footer">
   
 
   <div class="clearfix container">
       <div class="site-info">
 	      &copy; 2023 Mr. Yam All Rights Reserved.
-        
+          
       </div>
       <div class="site-credit">
-        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
+        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hiero" target="_blank">hiero</a>
       </div>
   </div>
 </footer>
@@ -969,21 +981,30 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
 <!-- min height -->
 
 <script>
-    var wrapdiv = document.getElementById("wrap");
     var contentdiv = document.getElementById("content");
 
-    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
     contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-
-
-    <!-- headerblur min height -->
-    
-    
 </script>
+
+<!-- Custome JS -->
+
+<script src="/js/my.js"></script>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
     
-<div style="display: none;">
-  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-</div>
 
 <!-- mathjax config similar to math.stackexchange -->
 
@@ -1013,23 +1034,24 @@ Which Musk are we talking about? The one who produces Tesla cars, launches Starl
     });
 </script>
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
   
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
 
 
 
-<script src="/js/script.js"></script>
+<script src="/js/scripts.js"></script>
 
 
-<script src="/js/bootstrap.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 <script src="/js/main.js"></script>

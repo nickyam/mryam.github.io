@@ -37,6 +37,7 @@
     <url>/Tech/Device%20Shots/</url>
     <content><![CDATA[<p>Device shots is an online tool for making screenshots with shells. You just need to drag the screenshots onto the web page. It supports multi brand mobile phones, tablets, computers, TVs, monitors, smart watches and other devices.</p>
 <p>Screenshots with shells can make them look more specific, but in fact, they are mainly more beautiful.</p>
+<span id="more"></span>
 <p>It’s easy to use with a lot of screenshots on the phone. The feature of device shots is that it supports many devices, including mobile phones, computers, tablets, smart watches, TVs and other devices.</p>
 <p>Including but not limited to the following equipments:</p>
 <ul>
@@ -73,6 +74,7 @@
     <url>/World/Handbook%20of%20COVID-19%20Prevention%20and%20Treatment/</url>
     <content><![CDATA[<p>Ma Yun Foundation invited many clinicians who participate in the treatment of new coronavirus and spent a week writing a <strong>Handbook of COVID-19 Prevention and Treatment</strong> for hospitals, doctors and nurses. </p>
 <p>Most of the hospitals in the world are facing challenges. We especially hope to share these practical experiences with hospitals and medical staff around the world ASAP. So please download, print, or forward them to your nearby hospitals and medical staff so that they can be ready. </p>
+<span id="more"></span>
 <p>Thank you!</p>
 <p>Handbook of COVID-19 Prevention and Treatment: <a href="https://covid-19.alibabacloud.com/zh">https://covid-19.alibabacloud.com/zh</a></p>
 <p>Handbook 中文版: <a href="https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_zh_Moblie.pdf">https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_zh_Moblie.pdf</a> </p>
@@ -124,6 +126,7 @@
 <li>how to protect your children when going out</li>
 </ol>
 <p>Don’t go out if possible, that is the best way to protect your children.</p>
+<span id="more"></span>
 <ul>
 <li>If have to, drive private car or take a taxi, and use public transportation less frequently such as buses and  subways where people are crowed. Walking is the best way for nearby destinations.</li>
 <li>Both parents and children should wear masks and ensure timely replacement, and do not touch the outside surface of masks, so as to avoid the virus transferring to the hands.</li>
@@ -155,6 +158,9 @@
 <p>Actually, good vatilation helps to reduce the amount of viruses that may exist in doors and helps to renew the indoor air. ‘Diluted’ outdoor air is almost impossible to bring viruses indoors.</p>
 <p>If your family members are suspected acute respiratory infection patients, open the window but keep the door closed during ventilation. Do not use central ventilation system to avoid the air in the sick people’s room entering the clean areas.</p>
 </li>
+</ol>
+<span id="more"></span>
+<ol start="2">
 <li><p><strong>Under what conditions home is isolation is necessary?</strong></p>
 <p>For the moment, there are 3 types of people who need home isolation. </p>
 <ul>
@@ -221,6 +227,7 @@
     <url>/Crypto/On%20the%20Self-Limitation%20of%20Ethereum/</url>
     <content><![CDATA[<p>Recently, the similarities and differences between Bitcoin and Ethereum regarding the issue of price self-limitation have also been discussed. Some further thoughts and analysis are recorded below for readers’ discussion and criticism.<img src="https://telegraph-image.pages.dev/file/3b97d5f2b70bfab540ab8.jpg"></p>
 <p>The issue of self-limitation is actually somewhat subtle. Ethereum also draws on Bitcoin’s method of dynamically adjusting transaction fees (miner fees) in its calculations. For Bitcoin, the miner fee = vBytes (transaction size in bytes) * fee/vBytes (fee rate denominated in BTC); for Ethereum, the gas fee = gas (amount of computational resources consumed by instructions) * gas price (denominated in ETH). Therefore, on the surface, there doesn’t seem to be a problem with whether the fee rate or gas price is denominated in BTC, ETH, or USD. From the perspective of supply and demand economics, if the pricing currency relative to fiat currency is such that the expected fee income for miners (converted to fiat currency value) is just their cost (denominated in fiat currency) plus a reasonable profit, they can lower the fee rate (fee/vBytes or gas price) to maintain stability of the product of vBytes * fee/vBytes or gas * gas price relative to fiat currency.</p>
+<span id="more"></span>
 <p>The problem here lies in the intrinsic differences in the sources of value between the two systems. Bitcoin, as a value transmission system, derives its overall value (manifested as market capitalization multiplied by a certain amplification factor) from the total value it can securely transmit. The “security” here depends on computational power, and the total value that can be transmitted = sum(vBytes) * BTC price. Therefore, as the price of Bitcoin increases, assuming a constant byte throughput, the total value that the system can transmit will be higher (with a higher multiple relative to the price), resulting in a higher value for this value transmission system.</p>
 <p>Ethereum, on the other hand, is different. Ethereum is a runtime platform for an application ecosystem. Its overall value comes from the prosperity of the aforementioned application ecosystem, directly reflected in the activity level of applications used (number of transactions, N). Assuming there are no security issues, meaning that computational power is not important here and PoS and PoW are equivalent, and can maintain the same level of security needs, the total gas fee = N * (average gas * gas price) = (N * average gas) * gas price. With a constant overall processing capacity of the system, (N * average gas) remains constant, and average gas is a constant value, so N remains constant. If the goal is to further increase the value of the system (thus increasing the price of ETH), it would require increasing N to a level beyond the system’s total processing capacity, denoted as N’ (N’ &gt; N). However, the actual processing capacity of the system remains at N, and the result of the free market bidding is an increase in gas price to maintain N, thereby increasing the total gas fee (i.e., the system’s total revenue). The increase in gas price restricts the usage of low-paying participants, limiting the overall activity level of the ecosystem and consequently limiting the overall value of the system.</p>
 <p>Even more “sinister” (“clever”) is that after Ethereum EIP-1559, the direct channel of total gas fee revenue to miners has been cut off, and it is all “burned,” while the system issues a predetermined amount of new ETH to miners. When the burning exceeds the issuance, entering the so-called “deflation” phase, it means that the system’s revenue is large A, but only a small a is given to miners. A &gt; a, resulting in a surplus value delta = A - a. Furthermore, according to free market competition, the equilibrium income of miners is actually just their cost plus a reasonable profit. When miners transition from PoW to PoS, costs will decrease significantly, allowing a to decrease substantially. However, A is determined by market competition on the consumption side and will not decrease. Therefore, the surplus value delta reaches its maximum.</p>
@@ -238,6 +245,7 @@
     <title>Paradigm Betrays the Revolution</title>
     <url>/Crypto/Paradigm%20Betrays%20the%20Revolution/</url>
     <content><![CDATA[<p>The English word “Paradigm” means “a typical example or pattern.” The most common usage is in the phrase “Paradigm Shift” , which refers to a fundamental change in the basic concepts and practices of a scientific discipline. It is a concept in the philosophy of science introduced by American physicist and philosopher Thomas Kuhn and incorporated into the general lexicon. While Kuhn initially limited the use of this term to the natural sciences, the concept of paradigm shift is also used in many non-scientific contexts to describe profound changes in fundamental models or perceptions of events.</p>
+<span id="more"></span>
 <p>In the cryptocurrency/web3 field, Paradigm is a well-known name. One prominent example is their deep investment in the leading decentralized exchange (DEX) project, Uniswap. As early as 2019, when Uniswap was relatively unknown in the DeFi space, Paradigm invested $1.82 million as an angel investor and mentor. This investment is believed to have yielded returns of several billion dollars during the peak of the bull market in 2021.</p>
 <p>In the NFT space, Paradigm made a significant investment of $11 million in the early stages of the NFT-focused trading platform Blur, around March 2022. With their support and involvement, Blur emerged in early 2023, challenging the dominance of the leading NFT marketplace, Opensea, and disrupting the bear market.</p>
 <p>Their investment in Uniswap is a source of pride for Paradigm. Noah, the lead developer of Uniswap v3, once tweeted, “Dan is a core contributor to the mechanism design of Uniswap v3. It would not have been possible without him.” However, their investment in Blur could be seen as a betrayal of Opensea, the frontrunner that received significant investment from a16z. While it may not be explicitly stated, the conflicting interests are apparent. Their investment in FTX, which eventually faced significant losses and an exit scam, caused Paradigm to lose face and suffer losses of up to $278 million.</p>
@@ -249,6 +257,58 @@
       </categories>
       <tags>
         <tag>Paradigm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Recommendations for pregnant women</title>
+    <url>/World/Recommendations%20for%20pregnant%20women/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/nickyam/img/master/pics/Pregnant-woman.jpeg"></p>
+<ol>
+<li><strong>Precautions in pregnancy check-ups</strong></li>
+</ol>
+<p>During the epidemic, pregnant moms need to note the following things when going for pregnancy check-ups:</p>
+<span id="more"></span>
+<ul>
+<li><p>Avoid taking public transport. You can take taxi, uber and your private car.</p>
+</li>
+<li><p>Avoid staying in hospital for a long time. You can ask your family to line up for you and find a ventilated place with fewer people while waiting. Don’t wait in doors for long.</p>
+</li>
+<li><p>Always wear an N95 mask or medical mask from home to hospital. Gloves are also recommended.</p>
+</li>
+<li><p>Bring hand sanitizer or sanitizing wipes with you all the time to maintain hand hygiene when it is not convenient for you to wash your hands.</p>
+</li>
+<li><p>Avoid touching your eyes, mouth or nose with your hands. The virus can transmit through contact.</p>
+</li>
+<li><p>Dispose of used masks in a proper way upon getting home. Remember to change your clothes, wash your hands and face in time.</p>
+</li>
+<li><p>Keep distance from others (at least one meter away) when you are on the way or in hospital.</p>
+</li>
+</ul>
+<ol start="2">
+<li><strong>Can new moms keep breastfeeding during the epidemic?</strong></li>
+</ol>
+<ul>
+<li><p>If you are healthy and want to breastfeed your baby, please remember to wash your hands regularly. Pay attention to the hygiene of those body parts where you will have close contact with your baby.</p>
+</li>
+<li><p>Follow the guidelines of home isolation. Wear a medical mask and carefully wash your hands before intimate contact with your baby. Keep your wrists, arms and outerwear clean.</p>
+</li>
+<li><p>Breastfeeding is not recommended under these circumstances. </p>
+<ul>
+<li>You are a suspected COVID-19 patient.</li>
+<li>You are a confirmed COVID-19 patient and not yet fully recovered from the disease.</li>
+</ul>
+</li>
+<li><p>**SPECIAL NOTICE: **If you are taking certain antivirus drugs, such as Lopinavir or Ritonavir, you are not recommended to breastfeed your child.</p>
+</li>
+<li><p>If you have respiratory symptoms but not COVID-19 infected,  you can breastfeed your baby under the guidance of a doctor.</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>World</category>
+      </categories>
+      <tags>
+        <tag>Covid-19</tag>
       </tags>
   </entry>
   <entry>
@@ -431,57 +491,6 @@
       <tags>
         <tag>BTC</tag>
         <tag>ETH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Recommendations for pregnant women</title>
-    <url>/World/Recommendations%20for%20pregnant%20women/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/nickyam/img/master/pics/Pregnant-woman.jpeg"></p>
-<ol>
-<li><strong>Precautions in pregnancy check-ups</strong></li>
-</ol>
-<p>During the epidemic, pregnant moms need to note the following things when going for pregnancy check-ups:</p>
-<ul>
-<li><p>Avoid taking public transport. You can take taxi, uber and your private car.</p>
-</li>
-<li><p>Avoid staying in hospital for a long time. You can ask your family to line up for you and find a ventilated place with fewer people while waiting. Don’t wait in doors for long.</p>
-</li>
-<li><p>Always wear an N95 mask or medical mask from home to hospital. Gloves are also recommended.</p>
-</li>
-<li><p>Bring hand sanitizer or sanitizing wipes with you all the time to maintain hand hygiene when it is not convenient for you to wash your hands.</p>
-</li>
-<li><p>Avoid touching your eyes, mouth or nose with your hands. The virus can transmit through contact.</p>
-</li>
-<li><p>Dispose of used masks in a proper way upon getting home. Remember to change your clothes, wash your hands and face in time.</p>
-</li>
-<li><p>Keep distance from others (at least one meter away) when you are on the way or in hospital.</p>
-</li>
-</ul>
-<ol start="2">
-<li><strong>Can new moms keep breastfeeding during the epidemic?</strong></li>
-</ol>
-<ul>
-<li><p>If you are healthy and want to breastfeed your baby, please remember to wash your hands regularly. Pay attention to the hygiene of those body parts where you will have close contact with your baby.</p>
-</li>
-<li><p>Follow the guidelines of home isolation. Wear a medical mask and carefully wash your hands before intimate contact with your baby. Keep your wrists, arms and outerwear clean.</p>
-</li>
-<li><p>Breastfeeding is not recommended under these circumstances. </p>
-<ul>
-<li>You are a suspected COVID-19 patient.</li>
-<li>You are a confirmed COVID-19 patient and not yet fully recovered from the disease.</li>
-</ul>
-</li>
-<li><p>**SPECIAL NOTICE: **If you are taking certain antivirus drugs, such as Lopinavir or Ritonavir, you are not recommended to breastfeed your child.</p>
-</li>
-<li><p>If you have respiratory symptoms but not COVID-19 infected,  you can breastfeed your baby under the guidance of a doctor.</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>World</category>
-      </categories>
-      <tags>
-        <tag>Covid-19</tag>
       </tags>
   </entry>
   <entry>
