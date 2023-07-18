@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mr.nickyam.com/Crypto/What_kind_of_mistakes_should_never_be_made_in_the_cryptocurrency_market/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Crypto/Bitcoin_during_the_bear_market/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Crypto/What_is_value/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Crypto/BlackRock_CEO_Praises_Bitcoin/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Crypto/Contrasting_Web3_Policies_Hong_Kong_and_Beijing/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/World/The_Federal_Reserve's_Defeat_A_Turning_Point_in_Monetary_Policy/</loc>
     
     <lastmod>2023-07-18</lastmod>
@@ -268,14 +313,21 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/BTC%EF%BC%8CTesla/</loc>
+    <loc>http://mr.nickyam.com/tags/BTC/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/Shell/</loc>
+    <loc>http://mr.nickyam.com/tags/web3/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/HK/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -283,6 +335,13 @@
   
   <url>
     <loc>http://mr.nickyam.com/tags/UBI/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/Shell/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -303,7 +362,7 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/BTC/</loc>
+    <loc>http://mr.nickyam.com/tags/BTC%EF%BC%8CTesla/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -311,20 +370,6 @@
   
   <url>
     <loc>http://mr.nickyam.com/tags/ChatGPT/</loc>
-    <lastmod>2023-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/Voting/</loc>
-    <lastmod>2023-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/ETH/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -345,6 +390,20 @@
   </url>
   
   <url>
+    <loc>http://mr.nickyam.com/tags/Voting/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/ETH/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/tags/Paradigm/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -353,13 +412,6 @@
   
   <url>
     <loc>http://mr.nickyam.com/tags/Mail/</loc>
-    <lastmod>2023-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/Stablecoin/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -381,6 +433,20 @@
   
   <url>
     <loc>http://mr.nickyam.com/tags/USA/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/Investment/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/Stablecoin/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
