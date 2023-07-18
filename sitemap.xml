@@ -2,6 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mr.nickyam.com/Crypto/The-Essence-of-the-Internet-is-Marketing-and-Web3-is-Essentially-Financial-Marketing/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Crypto/What-is-Web3-Privacy-How-is-its-Current-Development/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Tech/Device-shots/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Tech/Liu%20Cixin_on_ChatGPT_Human_Ineptitude_as_Humanity's_Final_Barrier/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Crypto/Voting_Methods_in_DAOs/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Crypto/On-Chain_Voting_A_Documentation_of_Social_Contracts/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/Crypto/Free_Money_The_Concept_of_Universal_Basic_Income/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/World/U.S._Debt_on_the_Verge_of_Default/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/about/index.html</loc>
     
     <lastmod>2023-07-18</lastmod>
@@ -47,15 +119,6 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/Tech/Device-shots/</loc>
-    
-    <lastmod>2023-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://mr.nickyam.com/Crypto/Paradigm-Betrays-the-Revolution/</loc>
     
     <lastmod>2023-07-16</lastmod>
@@ -74,25 +137,7 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/Crypto/The-Essence-of-the-Internet-is-Marketing-and-Web3-is-Essentially-Financial-Marketing/</loc>
-    
-    <lastmod>2023-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://mr.nickyam.com/Tech/Musk-has-arrived/</loc>
-    
-    <lastmod>2023-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/Crypto/What-is-Web3-Privacy-How-is-its-Current-Development/</loc>
     
     <lastmod>2023-07-16</lastmod>
     
@@ -173,21 +218,14 @@
 
   
   <url>
-    <loc>http://mr.nickyam.com/tags/Apple/</loc>
+    <loc>http://mr.nickyam.com/tags/Shell/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/AI/</loc>
-    <lastmod>2023-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/shell/</loc>
+    <loc>http://mr.nickyam.com/tags/UBI/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -208,6 +246,27 @@
   </url>
   
   <url>
+    <loc>http://mr.nickyam.com/tags/Apple/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/AI/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/ChatGPT/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/tags/Musk/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -216,6 +275,13 @@
   
   <url>
     <loc>http://mr.nickyam.com/tags/Tesla/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/Voting/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -243,7 +309,14 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/web3/</loc>
+    <loc>http://mr.nickyam.com/tags/Web3/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/USA/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -259,14 +332,14 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/categories/World/</loc>
+    <loc>http://mr.nickyam.com/categories/Crypto/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/categories/Crypto/</loc>
+    <loc>http://mr.nickyam.com/categories/World/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
