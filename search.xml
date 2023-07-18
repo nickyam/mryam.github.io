@@ -33,24 +33,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Handbook of COVID-19 Prevention and Treatment</title>
-    <url>/World/Handbook-of-COVID-19-Prevention%20and%20Treatment/</url>
-    <content><![CDATA[<p>Ma Yun Foundation invited many clinicians who participate in the treatment of new coronavirus and spent a week writing a <strong>Handbook of COVID-19 Prevention and Treatment</strong> for hospitals, doctors and nurses. </p>
-<p>Most of the hospitals in the world are facing challenges. We especially hope to share these practical experiences with hospitals and medical staff around the world ASAP. So please download, print, or forward them to your nearby hospitals and medical staff so that they can be ready. </p>
-<span id="more"></span>
-<p>Thank you!</p>
-<p>Handbook of COVID-19 Prevention and Treatment: <a href="https://covid-19.alibabacloud.com/zh">https://covid-19.alibabacloud.com/zh</a></p>
-<p>Handbook &#x4E2D;&#x6587;&#x7248;: <a href="https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_zh_Moblie.pdf">https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_zh_Moblie.pdf</a> </p>
-<p>Handbook English version: <a href="https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_en_Mobile.pdf">https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_en_Mobile.pdf</a></p>
-]]></content>
-      <categories>
-        <category>World</category>
-      </categories>
-      <tags>
-        <tag>Covid-19</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Device shots – making shell screenshots online, supporting multi brand mobile phones, tablets, computers, TVs, monitors, smart watches</title>
     <url>/Tech/Device-shots/</url>
     <content><![CDATA[<p>Device shots is an online tool for making screenshots with shells. You just need to drag the screenshots onto the web page. It supports multi brand mobile phones, tablets, computers, TVs, monitors, smart watches and other devices.</p>
@@ -85,6 +67,24 @@
       </categories>
       <tags>
         <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Handbook of COVID-19 Prevention and Treatment</title>
+    <url>/World/Handbook-of-COVID-19-Prevention%20and%20Treatment/</url>
+    <content><![CDATA[<p>Ma Yun Foundation invited many clinicians who participate in the treatment of new coronavirus and spent a week writing a <strong>Handbook of COVID-19 Prevention and Treatment</strong> for hospitals, doctors and nurses. </p>
+<p>Most of the hospitals in the world are facing challenges. We especially hope to share these practical experiences with hospitals and medical staff around the world ASAP. So please download, print, or forward them to your nearby hospitals and medical staff so that they can be ready. </p>
+<span id="more"></span>
+<p>Thank you!</p>
+<p>Handbook of COVID-19 Prevention and Treatment: <a href="https://covid-19.alibabacloud.com/zh">https://covid-19.alibabacloud.com/zh</a></p>
+<p>Handbook &#x4E2D;&#x6587;&#x7248;: <a href="https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_zh_Moblie.pdf">https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_zh_Moblie.pdf</a> </p>
+<p>Handbook English version: <a href="https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_en_Mobile.pdf">https://www.alibabacloud.com/zh/universal-service/pdf_reader?pdf=Handbook_of_COVID_19_Prevention_en_Mobile.pdf</a></p>
+]]></content>
+      <categories>
+        <category>World</category>
+      </categories>
+      <tags>
+        <tag>Covid-19</tag>
       </tags>
   </entry>
   <entry>
@@ -223,6 +223,25 @@
       </tags>
   </entry>
   <entry>
+    <title>On the Self-Limitation of Ethereum</title>
+    <url>/Crypto/On-the-Self-Limitation-of-Ethereum/</url>
+    <content><![CDATA[<p>Recently, the similarities and differences between Bitcoin and Ethereum regarding the issue of price self-limitation have also been discussed. Some further thoughts and analysis are recorded below for readers&#x2019; discussion and criticism.<img src="https://telegraph-image.pages.dev/file/3b97d5f2b70bfab540ab8.jpg"></p>
+<p>The issue of self-limitation is actually somewhat subtle. Ethereum also draws on Bitcoin&#x2019;s method of dynamically adjusting transaction fees (miner fees) in its calculations. For Bitcoin, the miner fee = vBytes (transaction size in bytes) * fee/vBytes (fee rate denominated in BTC); for Ethereum, the gas fee = gas (amount of computational resources consumed by instructions) * gas price (denominated in ETH). Therefore, on the surface, there doesn&#x2019;t seem to be a problem with whether the fee rate or gas price is denominated in BTC, ETH, or USD. From the perspective of supply and demand economics, if the pricing currency relative to fiat currency is such that the expected fee income for miners (converted to fiat currency value) is just their cost (denominated in fiat currency) plus a reasonable profit, they can lower the fee rate (fee/vBytes or gas price) to maintain stability of the product of vBytes * fee/vBytes or gas * gas price relative to fiat currency.</p>
+<span id="more"></span>
+<p>The problem here lies in the intrinsic differences in the sources of value between the two systems. Bitcoin, as a value transmission system, derives its overall value (manifested as market capitalization multiplied by a certain amplification factor) from the total value it can securely transmit. The &#x201C;security&#x201D; here depends on computational power, and the total value that can be transmitted = sum(vBytes) * BTC price. Therefore, as the price of Bitcoin increases, assuming a constant byte throughput, the total value that the system can transmit will be higher (with a higher multiple relative to the price), resulting in a higher value for this value transmission system.</p>
+<p>Ethereum, on the other hand, is different. Ethereum is a runtime platform for an application ecosystem. Its overall value comes from the prosperity of the aforementioned application ecosystem, directly reflected in the activity level of applications used (number of transactions, N). Assuming there are no security issues, meaning that computational power is not important here and PoS and PoW are equivalent, and can maintain the same level of security needs, the total gas fee = N * (average gas * gas price) = (N * average gas) * gas price. With a constant overall processing capacity of the system, (N * average gas) remains constant, and average gas is a constant value, so N remains constant. If the goal is to further increase the value of the system (thus increasing the price of ETH), it would require increasing N to a level beyond the system&#x2019;s total processing capacity, denoted as N&#x2019; (N&#x2019; &gt; N). However, the actual processing capacity of the system remains at N, and the result of the free market bidding is an increase in gas price to maintain N, thereby increasing the total gas fee (i.e., the system&#x2019;s total revenue). The increase in gas price restricts the usage of low-paying participants, limiting the overall activity level of the ecosystem and consequently limiting the overall value of the system.</p>
+<p>Even more &#x201C;sinister&#x201D; (&#x201C;clever&#x201D;) is that after Ethereum EIP-1559, the direct channel of total gas fee revenue to miners has been cut off, and it is all &#x201C;burned,&#x201D; while the system issues a predetermined amount of new ETH to miners. When the burning exceeds the issuance, entering the so-called &#x201C;deflation&#x201D; phase, it means that the system&#x2019;s revenue is large A, but only a small a is given to miners. A &gt; a, resulting in a surplus value delta = A - a. Furthermore, according to free market competition, the equilibrium income of miners is actually just their cost plus a reasonable profit. When miners transition from PoW to PoS, costs will decrease significantly, allowing a to decrease substantially. However, A is determined by market competition on the consumption side and will not decrease. Therefore, the surplus value delta reaches its maximum.</p>
+<p>This resembles the maximization of surplus value by lowering worker wages in capitalist production. However, a problem with capitalist production is that as competition and product improvement continue, monopolistic positions are broken, and the overall industry profitability perpetually declines, resulting in the industry gradually becoming a sunset industry, with lower price-to-earnings ratios (returning to the cost of PoS hardware and software infrastructure).</p>
+<p>Do not misinterpret this inference. The transition of an industry from emerging to sunset may take hundreds of years. Long-term trends cannot serve as the basis for short-term speculation. In this regard, I can&#x2019;t help but recall one of the most successful financial capitalists in the world today, Mr. Warren Buffett. His company, Berkshire Hathaway, acquired a textile mill in 1962. Unfortunately, the textile industry was already in decline, and despite efforts to navigate and reposition, it eventually had to be abandoned, leading to Berkshire Hathaway&#x2019;s transformation.</p>
+]]></content>
+      <categories>
+        <category>Crypto</category>
+      </categories>
+      <tags>
+        <tag>ETH</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Paradigm Betrays the Revolution</title>
     <url>/Crypto/Paradigm-Betrays-the-Revolution/</url>
     <content><![CDATA[<p>The English word &#x201C;Paradigm&#x201D; means &#x201C;a typical example or pattern.&#x201D; The most common usage is in the phrase &#x201C;Paradigm Shift&#x201D; , which refers to a fundamental change in the basic concepts and practices of a scientific discipline. It is a concept in the philosophy of science introduced by American physicist and philosopher Thomas Kuhn and incorporated into the general lexicon. While Kuhn initially limited the use of this term to the natural sciences, the concept of paradigm shift is also used in many non-scientific contexts to describe profound changes in fundamental models or perceptions of events.</p>
@@ -347,47 +366,6 @@
       </categories>
       <tags>
         <tag>Mail</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>On the Self-Limitation of Ethereum</title>
-    <url>/Crypto/On-the-Self-Limitation-of-Ethereum/</url>
-    <content><![CDATA[<p>Recently, the similarities and differences between Bitcoin and Ethereum regarding the issue of price self-limitation have also been discussed. Some further thoughts and analysis are recorded below for readers&#x2019; discussion and criticism.<img src="https://telegraph-image.pages.dev/file/3b97d5f2b70bfab540ab8.jpg"></p>
-<p>The issue of self-limitation is actually somewhat subtle. Ethereum also draws on Bitcoin&#x2019;s method of dynamically adjusting transaction fees (miner fees) in its calculations. For Bitcoin, the miner fee = vBytes (transaction size in bytes) * fee/vBytes (fee rate denominated in BTC); for Ethereum, the gas fee = gas (amount of computational resources consumed by instructions) * gas price (denominated in ETH). Therefore, on the surface, there doesn&#x2019;t seem to be a problem with whether the fee rate or gas price is denominated in BTC, ETH, or USD. From the perspective of supply and demand economics, if the pricing currency relative to fiat currency is such that the expected fee income for miners (converted to fiat currency value) is just their cost (denominated in fiat currency) plus a reasonable profit, they can lower the fee rate (fee/vBytes or gas price) to maintain stability of the product of vBytes * fee/vBytes or gas * gas price relative to fiat currency.</p>
-<span id="more"></span>
-<p>The problem here lies in the intrinsic differences in the sources of value between the two systems. Bitcoin, as a value transmission system, derives its overall value (manifested as market capitalization multiplied by a certain amplification factor) from the total value it can securely transmit. The &#x201C;security&#x201D; here depends on computational power, and the total value that can be transmitted = sum(vBytes) * BTC price. Therefore, as the price of Bitcoin increases, assuming a constant byte throughput, the total value that the system can transmit will be higher (with a higher multiple relative to the price), resulting in a higher value for this value transmission system.</p>
-<p>Ethereum, on the other hand, is different. Ethereum is a runtime platform for an application ecosystem. Its overall value comes from the prosperity of the aforementioned application ecosystem, directly reflected in the activity level of applications used (number of transactions, N). Assuming there are no security issues, meaning that computational power is not important here and PoS and PoW are equivalent, and can maintain the same level of security needs, the total gas fee = N * (average gas * gas price) = (N * average gas) * gas price. With a constant overall processing capacity of the system, (N * average gas) remains constant, and average gas is a constant value, so N remains constant. If the goal is to further increase the value of the system (thus increasing the price of ETH), it would require increasing N to a level beyond the system&#x2019;s total processing capacity, denoted as N&#x2019; (N&#x2019; &gt; N). However, the actual processing capacity of the system remains at N, and the result of the free market bidding is an increase in gas price to maintain N, thereby increasing the total gas fee (i.e., the system&#x2019;s total revenue). The increase in gas price restricts the usage of low-paying participants, limiting the overall activity level of the ecosystem and consequently limiting the overall value of the system.</p>
-<p>Even more &#x201C;sinister&#x201D; (&#x201C;clever&#x201D;) is that after Ethereum EIP-1559, the direct channel of total gas fee revenue to miners has been cut off, and it is all &#x201C;burned,&#x201D; while the system issues a predetermined amount of new ETH to miners. When the burning exceeds the issuance, entering the so-called &#x201C;deflation&#x201D; phase, it means that the system&#x2019;s revenue is large A, but only a small a is given to miners. A &gt; a, resulting in a surplus value delta = A - a. Furthermore, according to free market competition, the equilibrium income of miners is actually just their cost plus a reasonable profit. When miners transition from PoW to PoS, costs will decrease significantly, allowing a to decrease substantially. However, A is determined by market competition on the consumption side and will not decrease. Therefore, the surplus value delta reaches its maximum.</p>
-<p>This resembles the maximization of surplus value by lowering worker wages in capitalist production. However, a problem with capitalist production is that as competition and product improvement continue, monopolistic positions are broken, and the overall industry profitability perpetually declines, resulting in the industry gradually becoming a sunset industry, with lower price-to-earnings ratios (returning to the cost of PoS hardware and software infrastructure).</p>
-<p>Do not misinterpret this inference. The transition of an industry from emerging to sunset may take hundreds of years. Long-term trends cannot serve as the basis for short-term speculation. In this regard, I can&#x2019;t help but recall one of the most successful financial capitalists in the world today, Mr. Warren Buffett. His company, Berkshire Hathaway, acquired a textile mill in 1962. Unfortunately, the textile industry was already in decline, and despite efforts to navigate and reposition, it eventually had to be abandoned, leading to Berkshire Hathaway&#x2019;s transformation.</p>
-]]></content>
-      <categories>
-        <category>Crypto</category>
-      </categories>
-      <tags>
-        <tag>ETH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>The Essence of the Internet is Marketing, and Web3 is Essentially Financial Marketing</title>
-    <url>/Crypto/The-Essence-of-the-Internet-is-Marketing-and-Web3-is-Essentially-Financial-Marketing/</url>
-    <content><![CDATA[<p>There are often stories that people love to tell: Two classmates, A and B, graduated together. A joined a strict and regulated software company, while B joined an unknown internet company. Several years later, A honed their skills in standardized coding and project management, while B&#x2019;s company successfully went public, resulting in a skyrocketing value of their stock options and granting them financial freedom.</p>
-<span id="more"></span>
-
-<p>Ultimately, the difference in business models determined their divergent destinies. The software company sold &#x201C;products,&#x201D; whereas the internet company &#x201C;sold&#x201D; products.<br><img src="https://telegraph-image.pages.dev/file/dddba150b351a51438c85.jpg"></p>
-<p>Unlike the telecommunications industry, the internet industry is built on open-source software. In the telecommunications industry, equipment manufacturers (such as Huawei) are responsible for technology development and sell the products to operators (such as Mobile) for service provision. Equipment manufacturers occupy the upstream position in the industry chain of operators. On the other hand, internet companies utilize free open-source software and inexpensive off-the-shelf hardware. By bypassing the Internet of Everything (IOE), internet companies reduce costs associated with the upstream industry chain. Consequently, the work performed by technical personnel in internet companies essentially involves integration or application development. To be honest, it is not highly technologically advanced work, especially without core hard technology.</p>
-<p>The low level of hard technology does not necessarily mean lower profits. On the contrary, the low entry barrier allows for certain occupations, such as app developers, to be mass-produced, leading to substantial earnings. If these application development jobs were provided as outsourcing services, they would not yield significant returns. However, when integrated with internet companies&#x2019; business and involved in distribution, the results are extraordinary. The former lies in the lower value-added section of the smile curve, while the internet companies, which can distribute huge profits, primarily occupy the high value-added right end, namely the consumer end.</p>
-<p>Therefore, internet companies are essentially marketing companies disguised as technology companies. Promoting internet culture, capturing consumers&#x2019; minds, and shaping new ideologies are inevitable tasks for internet companies. Internet companies are no longer confined to one or two products. Attention and traffic are the lifeblood of internet businesses.</p>
-<p>The paradigm of Web3 has undergone some changes. Some people summarize it as follows: Web1 was read-only, Web2 was read and write, and Web3 is read, write, and own. This perspective focuses on the trees but not the forest. Web3 is first and foremost the internet, and therefore, it is also marketing. However, Web3 does not &#x201C;sell&#x201D; any product; it emphasizes selling financial products. At the same time, Web3 uses financial methods to empower marketing. The so-called &#x201C;a large upward price movement attracts a multitude of people&#x201D; is a silent form of promotion. When these two aspects are combined, it constitutes what the author refers to as &#x201C;financial marketing&#x201D; &#x2013; that is, marketing financial products and empowering marketing through finance.</p>
-<p>Take SHIB as an example, a few dozen lines of contract code that attracted millions of people, resulting in a market capitalization of over $5<br>billion and a daily trading volume of nearly $80 million. This can be considered a miracle.</p>
-<p>Departing from the essence of Web3 may lead to wandering astray. However, this does not mean that any form of financial marketing is Web3. Making an insurance advertisement on short video platforms would not be classified as Web3.</p>
-<p>Finance in relation to Web3 is merely a false representation to cultivate the true. If you mistake the false for the true, then you have lost.</p>
-]]></content>
-      <categories>
-        <category>Crypto</category>
-      </categories>
-      <tags>
-        <tag>web3</tag>
       </tags>
   </entry>
   <entry>
@@ -524,6 +502,28 @@
 <p>However, currently, industry security is still highly valued, particularly in the development of various wallets. The privacy sector still appears to be a niche market, with relatively lower user and usage volumes compared to other sectors within the crypto community. Most privacy infrastructure and applications are still in the development and construction phase.</p>
 <p>Nevertheless, some people believe that privacy solutions have strong appeal in attracting more institutional capital to participate in the crypto ecosystem. Privacy ensures the protection of important financial data and trade secrets, making it an essential infrastructure for the next wave of crypto adoption.</p>
 <p>Whether encrypted privacy can attract more users in future use cases is still worth monitoring and observing.</p>
+]]></content>
+      <categories>
+        <category>Crypto</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>The Essence of the Internet is Marketing, and Web3 is Essentially Financial Marketing</title>
+    <url>/Crypto/The-Essence-of-the-Internet-is-Marketing-and-Web3-is-Essentially-Financial-Marketing/</url>
+    <content><![CDATA[<p>There are often stories that people love to tell: Two classmates, A and B, graduated together. A joined a strict and regulated software company, while B joined an unknown internet company. Several years later, A honed their skills in standardized coding and project management, while B&#x2019;s company successfully went public, resulting in a skyrocketing value of their stock options and granting them financial freedom.</p>
+<span id="more"></span>
+
+<p>Ultimately, the difference in business models determined their divergent destinies. The software company sold &#x201C;products,&#x201D; whereas the internet company &#x201C;sold&#x201D; products.<br><img src="https://telegraph-image.pages.dev/file/dddba150b351a51438c85.jpg"></p>
+<p>Unlike the telecommunications industry, the internet industry is built on open-source software. In the telecommunications industry, equipment manufacturers (such as Huawei) are responsible for technology development and sell the products to operators (such as Mobile) for service provision. Equipment manufacturers occupy the upstream position in the industry chain of operators. On the other hand, internet companies utilize free open-source software and inexpensive off-the-shelf hardware. By bypassing the Internet of Everything (IOE), internet companies reduce costs associated with the upstream industry chain. Consequently, the work performed by technical personnel in internet companies essentially involves integration or application development. To be honest, it is not highly technologically advanced work, especially without core hard technology.</p>
+<p>The low level of hard technology does not necessarily mean lower profits. On the contrary, the low entry barrier allows for certain occupations, such as app developers, to be mass-produced, leading to substantial earnings. If these application development jobs were provided as outsourcing services, they would not yield significant returns. However, when integrated with internet companies&#x2019; business and involved in distribution, the results are extraordinary. The former lies in the lower value-added section of the smile curve, while the internet companies, which can distribute huge profits, primarily occupy the high value-added right end, namely the consumer end.</p>
+<p>Therefore, internet companies are essentially marketing companies disguised as technology companies. Promoting internet culture, capturing consumers&#x2019; minds, and shaping new ideologies are inevitable tasks for internet companies. Internet companies are no longer confined to one or two products. Attention and traffic are the lifeblood of internet businesses.</p>
+<p>The paradigm of Web3 has undergone some changes. Some people summarize it as follows: Web1 was read-only, Web2 was read and write, and Web3 is read, write, and own. This perspective focuses on the trees but not the forest. Web3 is first and foremost the internet, and therefore, it is also marketing. However, Web3 does not &#x201C;sell&#x201D; any product; it emphasizes selling financial products. At the same time, Web3 uses financial methods to empower marketing. The so-called &#x201C;a large upward price movement attracts a multitude of people&#x201D; is a silent form of promotion. When these two aspects are combined, it constitutes what the author refers to as &#x201C;financial marketing&#x201D; &#x2013; that is, marketing financial products and empowering marketing through finance.</p>
+<p>Take SHIB as an example, a few dozen lines of contract code that attracted millions of people, resulting in a market capitalization of over $5<br>billion and a daily trading volume of nearly $80 million. This can be considered a miracle.</p>
+<p>Departing from the essence of Web3 may lead to wandering astray. However, this does not mean that any form of financial marketing is Web3. Making an insurance advertisement on short video platforms would not be classified as Web3.</p>
+<p>Finance in relation to Web3 is merely a false representation to cultivate the true. If you mistake the false for the true, then you have lost.</p>
 ]]></content>
       <categories>
         <category>Crypto</category>

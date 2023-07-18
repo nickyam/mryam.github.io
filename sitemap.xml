@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mr.nickyam.com/about/index.html</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/World/How-to-care-for-children-during-the-epidemic/</loc>
     
     <lastmod>2023-07-16</lastmod>
@@ -154,15 +163,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://mr.nickyam.com/about/index.html</loc>
-    
-    <lastmod>2023-06-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://mr.nickyam.com/</loc>
@@ -187,14 +187,14 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/Covid-19/</loc>
+    <loc>http://mr.nickyam.com/tags/shell/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/shell/</loc>
+    <loc>http://mr.nickyam.com/tags/Covid-19/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -222,6 +222,13 @@
   </url>
   
   <url>
+    <loc>http://mr.nickyam.com/tags/ETH/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/tags/Paradigm/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -230,13 +237,6 @@
   
   <url>
     <loc>http://mr.nickyam.com/tags/Mail/</loc>
-    <lastmod>2023-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/ETH/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
