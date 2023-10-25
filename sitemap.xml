@@ -515,6 +515,20 @@
 
   
   <url>
+    <loc>http://mr.nickyam.com/tags/life/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/BTC/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/tags/Apple/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -529,7 +543,7 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/BTC/</loc>
+    <loc>http://mr.nickyam.com/tags/Blockchain/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -557,28 +571,14 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/life/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/Blockchain/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/Covid-19/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mr.nickyam.com/tags/BTC%EF%BC%8CTesla/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/UBI/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -592,7 +592,7 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/UBI/</loc>
+    <loc>http://mr.nickyam.com/tags/Covid-19/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -613,27 +613,6 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/Musk/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/Tesla/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/Blog/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mr.nickyam.com/tags/ChatGPT/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -648,14 +627,14 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/Paradigm/</loc>
+    <loc>http://mr.nickyam.com/tags/Musk/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/ETH/</loc>
+    <loc>http://mr.nickyam.com/tags/Tesla/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -669,6 +648,13 @@
   </url>
   
   <url>
+    <loc>http://mr.nickyam.com/tags/Blog/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/tags/Voting/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -676,7 +662,28 @@
   </url>
   
   <url>
+    <loc>http://mr.nickyam.com/tags/ETH/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/Paradigm/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/tags/Mail/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/Stablecoin/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -697,7 +704,7 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/Stablecoin/</loc>
+    <loc>http://mr.nickyam.com/tags/Mark/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -705,13 +712,6 @@
   
   <url>
     <loc>http://mr.nickyam.com/tags/Mac/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/Mark/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -732,6 +732,20 @@
   </url>
   
   <url>
+    <loc>http://mr.nickyam.com/tags/Browser/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mr.nickyam.com/tags/Uniswap/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mr.nickyam.com/tags/Wolf/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -746,14 +760,7 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/tags/Uniswap/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/Browser/</loc>
+    <loc>http://mr.nickyam.com/tags/EDU/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -761,13 +768,6 @@
   
   <url>
     <loc>http://mr.nickyam.com/tags/USA/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mr.nickyam.com/tags/EDU/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -783,7 +783,7 @@
 
   
   <url>
-    <loc>http://mr.nickyam.com/categories/Tech/</loc>
+    <loc>http://mr.nickyam.com/categories/World/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -797,7 +797,7 @@
   </url>
   
   <url>
-    <loc>http://mr.nickyam.com/categories/World/</loc>
+    <loc>http://mr.nickyam.com/categories/Tech/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
